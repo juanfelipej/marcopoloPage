@@ -1,0 +1,244 @@
+*{
+    margin: 0; 
+ }
+ ul>li{
+     list-style-type: none; 
+     display:flex;
+     justify-content: center;
+     align-items: center;
+ }
+ ul{
+     display:flex;
+     flex-direction: row;
+     
+ }
+ li>a{
+     text-decoration: none;
+     padding: 44px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     color: white;
+ }
+ nav{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: row;
+     height: 113px;
+     background-color: #00000063;
+     width: 100vw;
+     position: fixed;
+     z-index: 4;
+ }
+ .logoMarcopoloNavbar{
+     width: auto;
+ }
+ 
+ .poppins-thin {
+     font-family: "Poppins", sans-serif;
+     font-weight: 100;
+     font-style: normal;
+   }
+   
+   .poppins-extralight {
+     font-family: "Poppins", sans-serif;
+     font-weight: 200;
+     font-style: normal;
+   }
+   
+   .poppins-light {
+     font-family: "Poppins", sans-serif;
+     font-weight: 300;
+     font-style: normal;
+   }
+   
+   .poppins-regular {
+     font-family: "Poppins", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+   }
+   
+   .poppins-medium {
+     font-family: "Poppins", sans-serif;
+     font-weight: 500;
+     font-style: normal;
+   }
+   
+   .poppins-semibold {
+     font-family: "Poppins", sans-serif;
+     font-weight: 600;
+     font-style: normal;
+   }
+   
+   .poppins-bold {
+     font-family: "Poppins", sans-serif;
+     font-weight: 700;
+     font-style: normal;
+   }
+   
+   .poppins-extrabold {
+     font-family: "Poppins", sans-serif;
+     font-weight: 800;
+     font-style: normal;
+   }
+   
+   .poppins-black {
+     font-family: "Poppins", sans-serif;
+     font-weight: 900;
+     font-style: normal;
+   }
+   
+   .poppins-thin-italic {
+     font-family: "Poppins", sans-serif;
+     font-weight: 100;
+     font-style: italic;
+   }
+   
+   .poppins-extralight-italic {
+     font-family: "Poppins", sans-serif;
+     font-weight: 200;
+     font-style: italic;
+   }
+   
+   .poppins-light-italic {
+     font-family: "Poppins", sans-serif;
+     font-weight: 300;
+     font-style: italic;
+   }
+   
+   .poppins-regular-italic {
+     font-family: "Poppins", sans-serif;
+     font-weight: 400;
+     font-style: italic;
+   }
+   
+   .poppins-medium-italic {
+     font-family: "Poppins", sans-serif;
+     font-weight: 500;
+     font-style: italic;
+   }
+   
+   .poppins-semibold-italic {
+     font-family: "Poppins", sans-serif;
+     font-weight: 600;
+     font-style: italic;
+   }
+   
+   .poppins-bold-italic {
+     font-family: "Poppins", sans-serif;
+     font-weight: 700;
+     font-style: italic;
+   }
+   
+   .poppins-extrabold-italic {
+     font-family: "Poppins", sans-serif;
+     font-weight: 800;
+     font-style: italic;
+   }
+   
+   .poppins-black-italic {
+     font-family: "Poppins", sans-serif;
+     font-weight: 900;
+     font-style: italic;
+   }
+ 
+   .linkshover:hover{
+     text-decoration: underline;
+     background-color: #00000063;
+ 
+   }
+   .logoMarcopoloNavbar{
+ width: 274px;
+ height: 85px;
+   }
+   #intro{
+     background-image: url(Resources/Images/jpg/introcasino.jpg);
+     height: 945px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ 
+ 
+   }
+ 
+   /* style.css */
+ 
+   
+   .container {
+     width: 1920px; /* Tamaño fijo del contenedor */
+     height: 903px; /* Tamaño fijo del contenedor */
+     display: flex;
+     gap: 20px;
+     overflow: hidden; /* Oculta cualquier contenido que se salga del contenedor */
+     transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+     align-items: center;
+   }
+   
+   .box {
+     border-radius: 20px;
+     position: relative; /* Asegura que la transformación se aplique correctamente */
+     transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+   }
+   #div2{
+    width: 3897px;
+    height: 666px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   }
+   #div1{
+    width: 1247px;
+    height: 296px;
+    transform: translateX(-206px)  ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   }
+   #div3{
+    width: 1247px;
+    height: 296px;
+    transform: translateX(206px);
+    display: flex;
+        flex-direction: row;
+   }
+   
+   #ubicaciones{
+     background-image: url(Resources/Images/png/fondoUbicaciones.png);
+     height: 945px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   }
+ .imgUbicacion{
+    width: 80%;
+    height: 100%;
+ }
+ .fondoblancoUbicaciones{
+    background-color: white;
+    height: 86%;
+    width: 79%;
+    z-index: 5;
+    margin-left: -204px;
+    border-radius: 0px 50px 50px 0px;
+    position: relative;
+    padding: 4%;
+ }
+ iframe{
+    position: absolute;
+    border-radius: 35px;
+    border: none;
+    box-shadow: -5px 5px 5px #00000059;
+    left: -194px;
+    top: 234px;
+    height: 377px;
+    width: 503px;
+ }
+ .infoContacto{
+    display: flex;
+    flex-direction: row;
+ }
+.tamañoContacto{
+    font-size: 35px;
+}
+.targetaPequeña{
+    font-size: 15px;
+}
