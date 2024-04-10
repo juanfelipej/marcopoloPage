@@ -5,21 +5,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
     div1.addEventListener('click', () => {
         console.log('Se hizo clic en el div 1');
-        div1.style.transform = 'translateX(712px) scale(2)';
-        div2.style.transform = 'translateX(931px) scale(0.5)';
-        div3.style.transform = 'translateX(664px)';
+        div1.classList.add = 'div2';
+        div1.style.transform = 'translateX(445px)scale(1)';
+        div2.style.transform = 'translateX(861px) scale(0.5)';
+        div3.style.transform = 'translateX(664px)scale(0.5)';
         
     });
     
     div2.addEventListener('click', () => {
-        div1.style.transform = ' translateX(-206px)';
-        div2.style.transform = 'translateX(0)';
-        div3.style.transform = ' translateX(206px)';
+        div1.style.transform = ' translateX(-386px)scale(0.5)';
+        div2.style.transform = 'translateX(-177px)scale(1)';
+        div3.style.transform = ' translateX(219px)scale(0.5)';
     });
 
     div3.addEventListener('click', () => {
-        div1.style.transform = 'translateX(-664px)';
-        div2.style.transform = 'translateX(-931px) scale(0.5)';
-        div3.style.transform = 'translateX(-712px) scale(2)';
+        div1.style.transform = 'translateX(-664px) scale(0.5)';
+        div2.style.transform = 'translateX(-1038px) scale(0.5)';
+        div3.style.transform = 'translateX(-832px) scale(1)';
     });
 });
