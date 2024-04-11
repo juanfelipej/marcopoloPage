@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Casino Marcopolo</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,16 +22,24 @@
     <a href="#intro">
         <img class="btnarriba" src="Resources/Images/png/arribabtn.png" alt="">
     </a>
-    <header>
-        <nav>
-            <img class="logoMarcopoloNavbar" src="Resources/Images/png/MarcoPoloLogo.png" alt="Logo Marcopolo">
-            <ul>
-                <li><a class="josefin-sans linkshover" href="#juegos">Juegos</a></li>
-                <li><a class="josefin-sans linkshover" href="#ubicaciones">Ubicaciones</a></li>
-                <li><a class="josefin-sans linkshover" href="#Contacto">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+   <header>
+    
+    <nav>
+        <div id="menu" class="menu-icon">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+        <img class="logoMarcopoloNavbar oculatarimg" src="Resources/Images/png/MarcoPoloLogo.png" alt="Logo Marcopolo">
+        
+        <ul class="menu-items">
+            <li id="elementosLista1"><a class="josefin-sans linkshover" href="#juegos">Juegos</a></li>
+            <li id="elementosLista2"><a class="josefin-sans linkshover" href="#ubicaciones">Ubicaciones</a></li>
+            <li id="elementosLista3"><a class="josefin-sans linkshover" href="#Contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
     <section id="intro" class="animado">
         <div class="introInfo">
             <h1>
@@ -162,6 +170,8 @@
             </div>
         </div>
 
+        
+
     </section>
     <section id="Contacto" class="animado">
         <div class="infoContacto">
@@ -245,6 +255,7 @@
         </div>
     </footer>
     <script src="javascript.js"></script>
+    <script src="menuscript.js"></script>
 </body>
 
 </html>

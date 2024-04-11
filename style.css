@@ -3,11 +3,11 @@
 }
 .btnarriba{
   position: fixed;
-    left: 1704px;
-    top: 761px;
-    z-index: 4;
-    box-shadow: -6px 8px 16px #00000045;
-    border-radius: 14px;
+  left: 1854px;
+  top: 851px;
+  z-index: 4;
+  box-shadow: -6px 8px 16px #00000045;
+  border-radius: 14px;
 }
 .campos>label{
   font-size: 15px;
@@ -31,14 +31,14 @@
   margin: 4px;
 }
 .campos{
-  /* width: 287px; */
-  height: 188px;
+  width: 100%;
+  height: 54%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 #formcontacto{
-  width: 642px;
+  width: 110%;
   padding: 60px;
   background-color: #01426C;
   border-radius: 25px;
@@ -48,6 +48,7 @@
   align-items: center;
   margin-left: 134px;
   padding-bottom: 4px;
+  flex-wrap: wrap;
 }
 nav>ul>li{
    list-style-type: none;
@@ -59,7 +60,6 @@ nav>ul>li{
 nav>ul{
    display:flex;
    flex-direction: row;
-   margin-left: 307px;
    height: 96px;
 }
 li>a{
@@ -73,7 +73,7 @@ li>a{
 }
 nav{
    display: flex;
-   justify-content: flex-start;
+   justify-content: center;
    align-items: center;
    flex-direction: row;
    height: 96px;
@@ -199,15 +199,14 @@ nav{
    background-color: #00000063;
 
  }
- .logoMarcopoloNavbar{width: 274px;height: 85px;margin-left: 85px;}
+ .logoMarcopoloNavbar{width: 224px;height: 65px;margin-left: 85px;position: fixed;left: 0;}
  #intro{
    background-image: url(Resources/Images/jpg/introcasino.jpg);
-   height: 945px;
+   height: 100vh;
    display: flex;
    align-items: center;
    justify-content: center;
-
-
+   background-size: cover;
  }
 
  /* style.css */
@@ -265,14 +264,14 @@ nav{
  
  #ubicaciones{
    background-image: url(Resources/Images/jpg/fondoUbicaciones.jpg);
-   height: 945px;
+   height: 881px;
    display: flex;
    align-items: center;
    justify-content: center;
    flex-direction: column;
-   padding-top: 195px;
+   padding-top: 265px;
    background-size: cover;
-   padding-bottom: 185px;
+   padding-bottom: 325px;
  }
  
 
@@ -338,18 +337,21 @@ iframe{
 .contentJuegos{
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  width: 1248px;
+  width: 77%;
   gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .juegos>img{
   border-radius: 15px;
+  width: 82%;
 }
 .juegos{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 24%;
 }
 
 .josefin-sans {
@@ -357,12 +359,12 @@ iframe{
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-  font-size: 20px;
+  font-size: 21px;
 }
 .titulos{
   font-weight: Bolder;
   margin: 87px 0px 30px;
-  font-size: 45px;
+  font-size: 70px;
   color: #442C22;
 }
 .titulosJuegos{
@@ -376,7 +378,7 @@ iframe{
 .txtContacto{
   display: flex;
   flex-direction: column;
-  width: 420px;
+  width: 60%;
   align-items: center;
   text-align: center;
 }
@@ -435,6 +437,9 @@ iframe{
 footer>div{
   display: flex;
   flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 footer{
   padding: 65px;
@@ -470,7 +475,7 @@ footer>div>div>p{
   display: flex;
   flex-direction: column;
   width: 520px;
-  margin-left: -792px;
+  margin-left: -1242px;
 }
 .introInfo>h1{
   font-size: 45px;
@@ -491,4 +496,200 @@ footer>div>div>p{
   padding: 12px;
   font-size: 33px;
   border-radius: 24px;
+}
+
+/* Estilos para el menú hamburguesa */
+.menu-icon {
+  display: none; /* Ocultar por defecto en pantallas grandes */
+  cursor: pointer;
+  /* flex-direction: row; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px 0;
+}
+#containerMovil{
+  
+}
+/* Estilos para pantallas móviles */
+@media only screen and (max-width: 768px) {
+  .btnarriba{
+    width: 45px;
+  }
+  .campos>label>input{
+    width: 100%;
+  }
+  #juegos>h1, .txtContacto>h1{
+    font-size: 40px;
+    margin: 56px 0 26px 0;
+  }
+  .txtContacto>p{
+    font-size: 13px;
+  }
+  #Contacto{
+    padding: 0px;
+  }
+  .btnarriba{
+    left: 280px;
+    top: 660px;
+  }
+  #div1,#div2,#div3, #div4{
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+    background-color: black;
+    padding: 6px;
+    border-radius: 6px;
+    margin: 24px;
+    color: white;
+    position: fixed;
+    left: 4px;
+  }
+  #ubicaciones{
+    padding-top: 0px;
+    background-position: -493px 0;
+  }
+  #ubicaciones>h1{
+    margin-top: 80px;
+  }
+  #intro{
+    height: 100vh;
+  }
+  .introInfo {
+    display: flex;
+    flex-direction: column;
+    width: 308px;
+    margin-left: 12px;
+    align-items: center;
+}
+.introInfo>h1 {
+  font-size: 35px;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+}
+nav{
+  background-color: #00000000;
+}
+nav>ul>li>a{
+  width: 100%;
+  text-align: center;
+}
+.introInfo>p {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+.contFooterSegundo > * {
+   padding: 8px 0px;
+   width: 194px;
+}
+  .menu-items {
+      display: none; /* Ocultar la lista por defecto */
+  }
+  .oculatarimg{
+    display: none; 
+  }
+  .juegoResponsable {
+  width: 100%;
+  }
+  .institucional {
+    
+    padding: 0px 0px;
+}
+.contFooterPrimero>img {
+  margin: 45px;
+}
+.redes>h3 {
+  padding: 45px 0px;
+  text-align: center;
+}
+  nav.show{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: rgb(34, 34, 34);
+    width: 100vw;
+    position: fixed;
+    z-index: 4;
+  }
+  nav>ul>li:hover{
+    text-decoration: none;
+    background-color: #00000063;
+  }
+  nav>ul>li{
+    text-decoration: none;
+    background-color: #0000006e;
+
+  }
+  .menu-logo {
+    display: none; /* Ocultar la lista por defecto */
+    position: fixed;
+}
+.infoContacto{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.titulosJuegos {
+  margin: 20px 0;
+}
+#formcontacto{
+  width: 54%;
+  padding: 11%;
+  margin: 24px 0;
+}
+.juegos>img {
+  border-radius: 15px;
+    width: 100%;
+}
+.introInfo>button {
+  width: auto;
+  margin-top: 24px;
+}
+.campos{
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.contentJuegos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.menu-items.show {
+  display: block;
+  margin: 0;
+  width: 100%;
+  padding: 0;
+
+}
+.juegos{
+  width: 40%;
+  justify-content: flex-start;
+  text-align: center;
+}
+}
+#bar1,  #bar2{
+  transition: all 400ms cubic-bezier(.47,1.64,.41,.8);
+}
+  
+#juegos{
+  display: none !important;
 }
