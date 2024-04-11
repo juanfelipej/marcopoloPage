@@ -9,18 +9,27 @@ document.addEventListener('DOMContentLoaded', () => {
         div1.style.transform = 'translateX(445px)scale(1)';
         div2.style.transform = 'translateX(861px) scale(0.5)';
         div3.style.transform = 'translateX(664px)scale(0.5)';
-        
+        div4.style.transform = 'translateX(104px) scale(0.5)';
     });
     
     div2.addEventListener('click', () => {
         div1.style.transform = ' translateX(-386px)scale(0.5)';
         div2.style.transform = 'translateX(-177px)scale(1)';
         div3.style.transform = ' translateX(219px)scale(0.5)';
+        div4.style.transform = 'translateX(104px) scale(0.5)';
     });
 
     div3.addEventListener('click', () => {
         div1.style.transform = 'translateX(-664px) scale(0.5)';
         div2.style.transform = 'translateX(-1038px) scale(0.5)';
         div3.style.transform = 'translateX(-832px) scale(1)';
+        div4.style.transform = 'translateX(-304px) scale(0.5)';
+        
+    });
+    div4.addEventListener('click', () => {
+        div1.style.transform = 'translateX(-664px) scale(0.5)';
+        div2.style.transform = 'translateX(-1238px) scale(0.5)';
+        div3.style.transform = 'translateX(-1645px) scale(0.5)';
+        div4.style.transform = 'translateX(-1378px) scale(1)';
     });
 });

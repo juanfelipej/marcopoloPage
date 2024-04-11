@@ -15,12 +15,12 @@
 }
 #formcontacto>button{
   background-color: green;
-  width: 92px;
-  height: 49px;
   border-radius: 14px;
   border: none;
   font-size: 26px;
   color: white;
+  padding: 14px;
+  margin: 24px;
 }
 .campos>label>input{
   background-color: white;
@@ -31,31 +31,32 @@
   margin: 4px;
 }
 .campos{
-  width: 287px;
+  /* width: 287px; */
   height: 188px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 #formcontacto{
-  width: 546px;
+  width: 642px;
   padding: 60px;
   background-color: #01426C;
   border-radius: 25px;
   color: white;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   margin-left: 134px;
+  padding-bottom: 4px;
 }
-ul>li{
-   list-style-type: none; 
+nav>ul>li{
+   list-style-type: none;
    display:flex;
    justify-content: center;
    align-items: center;
 }
 
-ul{
+nav>ul{
    display:flex;
    flex-direction: row;
    margin-left: 307px;
@@ -236,7 +237,7 @@ nav{
   align-items: center;
  }
  .div2{
-  width: 3897px;
+  width: 595px;
   height: 666px;
   display: flex;
   flex-direction: row;
@@ -258,6 +259,9 @@ nav{
   display: flex;
       flex-direction: row;
  }
+ #div4{
+  transform: translateX(203px) scale(0.5);
+}
  
  #ubicaciones{
    background-image: url(Resources/Images/jpg/fondoUbicaciones.jpg);
@@ -277,15 +281,17 @@ nav{
     height: 33px;
 }
 .imgUbicacion{
-  width: 141%;
+  width: 880px;
   height: 94%;
+  box-shadow: 48px 14px 12px #00000059;
+  border-radius: 46px;
 }
 .fondoblancoUbicaciones{
   background-color: white;
-  height: 86.5%;
-  width: 79%;
+  height: 87%;
+  width: 316px;
   z-index: 5;
-  margin-left: -204px;
+  margin-left: -219px;
   border-radius: 0px 50px 50px 0px;
   position: relative;
   padding: 4%;
@@ -303,10 +309,15 @@ iframe{
 .fondoblancoUbicaciones>p{
   margin-bottom: -14px;
 }
+.infoContactoUbicaciones{
+  display: flex;
+  flex-direction: row;
+  width: 303px;
+}
 .infoContacto{
   display: flex;
   flex-direction: row;
-  width: 311px;
+  width: 1080px;
 }
 .tamañoContacto{
   font-size: 35px;
@@ -315,11 +326,7 @@ iframe{
 .targetaPequeña{
   font-size: 15px;
 }
-#ubicaciones>h1{
-margin-top: 45px;
-font-size: 45px;
-color: #442C22;
-}
+#ubicaciones>h1{margin-top: -15px;font-size: 45px;color: #442C22;margin-bottom: -6px;}
 
 #juegos{
   display: flex;
@@ -353,9 +360,10 @@ color: #442C22;
   font-size: 20px;
 }
 .titulos{
-  font-size: 70px;
   font-weight: Bolder;
   margin: 87px 0px 30px;
+  font-size: 45px;
+  color: #442C22;
 }
 .titulosJuegos{
   margin: 30px;
@@ -372,17 +380,115 @@ color: #442C22;
   align-items: center;
   text-align: center;
 }
+.btnarriba:active{
+  box-shadow: -3px 4px 4px #00000045;
+  transform: scale(0.9);
+}
 .txtContacto>p{
   font-weight: 400;
 }
 .txtContacto>h1, p{
   color: #01426C;
 }
-
+#div3>.fondoblancoUbicaciones>h1{
+  font-size: 24px;
+}
 #Contacto{
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding: 125px 0;
   background-color: #f2f2f2;
+}
+#formcontacto>button{
+ 
+
+}
+.institucional{
+  width: 306px;
+  padding: 0px 44px;
+}
+.institucional>ul{
+  margin: 0;
+  padding: 0;
+  list-style: auto;
+}
+.institucional>ul>li{
+  margin: 0px;
+}
+.juegoResponsable{
+  width: 245px;
+}
+.juegoResponsable>h3{
+  padding: 45px 0px;
+}
+.institucional>h3{
+  padding: 45px 0px;
+}
+.redes>h3{
+  padding: 45px 0px;
+}
+.institucional>ul>li{color: white;list-style: outside;}
+.terminos{
+  color: white;
+}
+footer>div{
+  display: flex;
+  flex-direction: row;
+}
+footer{
+  padding: 65px;
+  background-color: #030F27;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  font-family: "Josefin Sans", sans-serif;
+  justify-content: center;
+}
+footer>div>div>p{
+  color: white !important;
+}
+.redes{
+
+}
+.contFooterPrimero>img{
+  width: 198px;
+  height: 198px;
+  margin-left: 45px;
+}
+.contFooterSegundo>p{
+  color: white;
+}
+.contFooterSegundo{display: flex;justify-content: center;align-items: center;flex-direction: row;flex-wrap: wrap;}
+.contFooterSegundo > * {
+  padding: 0px 41px;
+}
+.introInfo{
+  display: flex;
+  flex-direction: column;
+  width: 520px;
+  margin-left: -792px;
+}
+.introInfo>h1{
+  font-size: 45px;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+}
+.introInfo>p{
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+}
+.introInfo>button{
+  width: 50%;
+  background-color: #ffffff00;
+  border: solid 3px white;
+  color: white;
+  padding: 12px;
+  font-size: 33px;
+  border-radius: 24px;
 }
