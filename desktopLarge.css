@@ -1,0 +1,61 @@
+/* Estilos para dispositivos de escritorio grandes */
+@media only screen and (max-width: 1920px) {
+    .txtContacto>h1 {
+        color: #01426c;
+        font-size: 63px;
+    }
+    .cont_grupos{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        justify-content: space-between;
+    }
+    .grupo{
+        width: 40%;
+        height: auto;
+    }
+    .grupo>label{
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+    }
+    .grupo>input{
+        width: 100%;
+        height: 35px;
+        border-radius: 5px;
+        border: none;
+    }
+    .grupo>textarea{
+        width: 100%;
+        height: 34%;
+        border-radius: 5px;
+        border: none;
+    }
+    .titulos{
+        margin: 42px 0px 30px;
+        font-size: 45px;
+    }
+    #formcontacto{
+        height: auto;
+    }
+    #checkbox{
+        margin: 4% 0;
+    width: 100%;
+    font-size: 20px;
+    }
+    #intro{
+        align-items: flex-start;
+    }
+    .introInfo{
+        margin-left: 6%;
+    }
+    #div2{
+        transform: translateX(-146px);
+    }
+    #div1{
+        transform: translateX(-400px) scale(0.5);
+    }
+    #div3{
+        transform: translateX(281px) scale(0.5);
+    }
+}

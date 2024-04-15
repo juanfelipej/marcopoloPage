@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Casino Marcopolo</title>
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="desktopLarge.css">
+    <link rel="stylesheet" href="desktopRegular.css">
+    <link rel="stylesheet" href="desktopSmall.css">
+    <link rel="stylesheet" href="tablet.css">
+    <link rel="stylesheet" href="movileStyle.css">
+    <link rel="stylesheet" href="smallMovil.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,6 +26,13 @@
 </head>
 
 <body>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p class="textModal">Deseas participar</p>
+          <a href="inscripcion.html" id="closeBtn">Cerrar</a>
+        </div>
+      </div>
     <a href="#intro">
         <img class="btnarriba" src="Resources/Images/png/arribabtn.png" alt="">
     </a>
@@ -30,6 +44,7 @@
             <div id="bar2" class="bar"></div>
             <div id="bar3" class="bar"></div>
         </div>
+        
         <img class="logoMarcopoloNavbar oculatarimg" src="Resources/Images/png/MarcoPoloLogo.png" alt="Logo Marcopolo">
         
         <ul class="menu-items">
@@ -49,9 +64,7 @@
                 Donde cada apuesta te lleva hacia emociones intensas y recompensas espectaculares!
                 ¡Únete a nuestra aventura hacia el lujo y la diversión!
             </p>
-            <button>
-                Participar
-            </button>
+            
         </div>
         <div class="animation-container">
             <img id="animation" src="Resources/Images/png/Variant1.png" alt="Variant 1">
@@ -62,11 +75,11 @@
 
         <div class="contentJuegos">
             <div class="juegos">
-                <img src="Resources/Images/jpg/ruleta.jpg" alt="">
+                <img src="Resources/Images/jpg/blackjack.jpg" alt="">
                 <h2 class="titulosJuegos josefin-sans">Black Jack</h2>
             </div>
             <div class="juegos">
-                <img src="Resources/Images/jpg/ruleta.jpg" alt="">
+                <img src="Resources/Images/jpg/baccarat.jpg" alt="">
                 <h2 class="titulosJuegos josefin-sans">Baccarat</h2>
             </div>
             <div class="juegos">
@@ -74,15 +87,15 @@
                 <h2 class="titulosJuegos josefin-sans">Ruleta</h2>
             </div>
             <div class="juegos">
-                <img src="Resources/Images/jpg/ruleta.jpg" alt="">
+                <img src="Resources/Images/jpg/slots.jpg" alt="">
                 <h2 class="titulosJuegos josefin-sans">Slots</h2>
             </div>
             <div class="juegos">
-                <img src="Resources/Images/jpg/ruleta.jpg" alt="">
+                <img src="Resources/Images/jpg/hipodromo.jpg" alt="">
                 <h2 class="titulosJuegos josefin-sans">Hipódromo</h2>
             </div>
             <div class="juegos">
-                <img src="Resources/Images/jpg/ruleta.jpg" alt="">
+                <img src="Resources/Images/jpg/ruletaelectronica.jpg" alt="">
                 <h2 class="titulosJuegos josefin-sans">Ruleta electrónica</h2>
             </div>
         </div>
@@ -90,6 +103,7 @@
     <section id="ubicaciones" class="animado">
         <h1 id="anclaubicaciones" class="titulos josefin-sans colorCafe">Ubicaciones</h1>
         <div class="container">
+            
             <div id="div1" class="div2 box">
                 <img class="imgUbicacion" src="Resources/Images/png/marcopoloBogota.png" alt="">
                 <div class="fondoblancoUbicaciones">
@@ -151,7 +165,7 @@
                 </div>
             </div>
             <div id="div4" class="div2 box">
-                <img class="imgUbicacion" src="Resources/Images/png/marcopoloLocalInter.png" alt="">
+                <img class="imgUbicacion" src="Resources/Images/png/marcopoloHolguines.png" alt="">
                 <div class="fondoblancoUbicaciones">
                     <p class="poppins-light tamañoContacto">Cali</p>
                     <h1 class="poppins-bold tamañoContacto">Holguines</h1>
@@ -164,10 +178,7 @@
                         <p class="poppins-light">(602)28857458</p>
                     </div>
 
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63723.46069800334!2d-76.57012595339654!3d3.4191382681366522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a7484d6175b5%3A0xb788380f5b914c0d!2sCasino%20Marco%20Polo!5e0!3m2!1sen!2sco!4v1712699375846!5m2!1sen!2sco"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63724.00332857552!2d-76.5807806381355!3d3.4109623507831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a17a4d89d2f7%3A0x3543b74a3e50b507!2sHolguines%20Trade%20Center!5e0!3m2!1sen!2sco!4v1713192827856!5m2!1sen!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
@@ -252,13 +263,10 @@
                         <p class="poppins-light">(602)28857458</p>
                     </div>
                     <div class="iframe">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63627.24277380996!2d-74.10405310167417!3d4.647024603852156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9ba4546f5f71%3A0x39fa4118f4560f3f!2sCasino%20Marco%20Polo!5e0!3m2!1sen!2sco!4v1712789471006!5m2!1sen!2sco"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63724.00332857552!2d-76.5807806381355!3d3.4109623507831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a17a4d89d2f7%3A0x3543b74a3e50b507!2sHolguines%20Trade%20Center!5e0!3m2!1sen!2sco!4v1713192827856!5m2!1sen!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>  
                 </div>
-                <img class="imgUbicacionMovil" src="Resources/Images/png/marcopoloInterMovil.png" alt="">
+                <img class="imgUbicacionMovil" src="Resources/Images/png/marcopoloHolguinesMovil.png" alt="">
             </div>
         </div>
         
@@ -273,37 +281,39 @@
                     nuestro servicio.
                     ¡Estamos aquí para escucharte!</p>
             </div>
-            <form id="formcontacto" action="">
-                <div class="campos">
-                    <label for="">
-                        Nombre y Apellido: <br>
-                        <input type="Nombre" placeholder="Nombre">
-                    </label>
-                    <label for="">
-                        Correo electrónico: <br>
-                        <input type="email" placeholder="Correo">
-                    </label>
-                    <label for="">
-                        Número celular o fijo: <br>
-                        <input type="number" placeholder="Celular">
-                    </label>
-                    <label for="">
-                        Motivo de su mensaje: <br>
-                        <input type="text" placeholder="Motivo">
-                    </label>
-                    <label for="">
-                        Mensaje: <br>
-                        <input type="text" placeholder="Mensaje">
-                    </label>
+            <form id="formcontacto" action="" method="POST">
+                <div class="cont_grupos">
+                    <div class="grupo">
+                        <label for="nombre_apellido">Nombre y Apellido:</label> <br>
+                        <input type="text" id="nombre_apellido" name="nombre_apellido" placeholder="Nombre y Apellido">
+                        
+                        <label for="correo">Correo electrónico:</label> <br>
+                        <input type="email" id="correo" name="correo" placeholder="Correo electrónico">
+                        
+                        <label for="telefono">Número celular o fijo:</label> <br>
+                        <input type="tel" id="telefono" name="telefono" placeholder="Número celular o fijo">
+                    </div>
+                    
+                    <div class="grupo">
+                        <label for="motivo">Motivo de su mensaje:</label> <br>
+                        <input type="text" id="motivo" name="motivo" placeholder="Motivo">
+                        
+                        <label for="mensaje">Mensaje:</label> <br>
+                        <textarea id="mensaje" name="mensaje" placeholder="Mensaje"></textarea>
+                    </div>
 
                 </div>
-                <label for="">
-                    <input type="checkbox" placeholder="Nombre">
-                    <a class="terminos" href="https://vivealaddin.com/politica-privacidad/">He leído y acepto os
-                        términos y condiciones</a>
+               
+                
+                <label id="checkbox" for="terminos">
+                    <input type="checkbox" id="terminos" name="terminos" required>
+                    He leído y acepto los términos y condiciones
                 </label>
-                <button>Enviar</button>
+                <button type="submit">Enviar</button>
             </form>
+            
+            
+            
         </div>
     </section>
     <footer>
@@ -347,6 +357,7 @@
     </footer>
     <script src="javascript.js"></script>
     <script src="menuscript.js"></script>
+    <script src="modaScript.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,92 @@
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .introInfo{
+        text-align: center;
+        margin-left: 0;
+    }
+    #intro {
+        background-image: url(Resources/Images/jpg/introcasino.jpg);
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+        flex-direction: column;
+        align-content: center;
+    }
+    .juegos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 31%;
+    }
+    .logoMarcopoloNavbar{
+        margin-left: 50px;
+    }
+    .cont_grupos {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: space-between;
+    }
+    .grupo {
+        width: 100%;
+        height: auto;
+    }
+    .grupo>label{
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+    }
+    .grupo>input{
+        width: 100%;
+        height: 35px;
+        border-radius: 5px;
+        border: none;
+    }
+    .institucional {
+        width: 306px;
+        padding: 0;
+    }
+    .grupo>textarea{
+        width: 100%;
+        height: 34%;
+        border-radius: 5px;
+        border: none;
+    }
+    #checkbox{
+        margin-top: 24px;
+    }
+    .institucional>ul {
+        margin-left: 8%;
+        padding: 0;
+        list-style: auto;
+        width: 82%;
+    }
+    .institucional>ul>li {
+        color: white;
+        list-style: outside;
+        width: 100%;
+    }
+    .institucional>ul {
+        margin-left: 8%;
+        padding: 0;
+        list-style: auto;
+        width: 82%;
+    }
+    .contFooterPrimero>img {
+        width: 120px;
+        height: 120px;
+        margin-top: 6%;
+    }
+    #div1 {
+        transform: translateX(-48vw) scale(0.4);
+    }
+    #div2 {
+        transform: translateX(-56vw) scale(0.7);
+    }
+    #div3 {
+        transform: translateX(-49vw) scale(0.5);
+    }
+}

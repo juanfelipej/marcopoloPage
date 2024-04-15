@@ -1,0 +1,22 @@
+@media only screen and (max-width: 480px) {
+    .iframe>iframe {
+        left: 285%;
+        top: -1rem;
+        height: 35vw;
+        width: 41vw;
+    }
+    .fondoblancoUbicacionesMovil>h1 {
+        font-size: 25px;
+    }
+    .fondoblancoUbicacionesMovil>p {
+        font-size: 27px;
+    }
+    .grupo>label {
+        font-size: 11px;
+        font-family: "Poppins", sans-serif;
+    }
+    #checkbox {
+        margin-top: 24px;
+        font-size: 12px;
+    }
+}
