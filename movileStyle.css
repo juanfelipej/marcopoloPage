@@ -21,6 +21,11 @@
     .btnarriba{
       width: 45px;
     }
+    #closeBtn {
+      font-size: 15px;
+      margin-top: 12px;
+  }
+
     .campos>label>input{
       width: 100%;
     }
@@ -35,8 +40,8 @@
       padding: 0px;
     }
     .btnarriba {
-      left: 490px;
-      top: 710px;
+      left: 79vw;
+      top: 81vh;
   }
     #div1,#div2,#div3, #div4{
       display: none;
@@ -79,6 +84,9 @@
     font-family: "Josefin Sans", sans-serif;
     text-align: center;
   }
+  .textModal {
+    font-size: 14px;
+}
   nav{
     background-color: #00000000;
   }

@@ -4,6 +4,9 @@
         text-align: center;
         margin-left: 0;
     }
+    .textModal {
+        font-size: 18px;
+    }
     #intro {
         background-image: url(Resources/Images/jpg/introcasino.jpg);
         height: 100vh;
@@ -23,6 +26,12 @@
     }
     .logoMarcopoloNavbar{
         margin-left: 50px;
+    }.modal-content {
+      
+        width: 29%;
+    }
+    #closeBtn {
+        font-size: 16px;
     }
     .cont_grupos {
         width: 100%;

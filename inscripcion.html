@@ -3,21 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="inscripcion.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <title>Formulario de Contacto Marcopolo</title>
 </head>
 <body>
+<div class="formulario">
+    <a href="index.html">
+        <img class="imgBack" src="Resources/Images/png/volver.png" alt="volver">
+    </a>
+    
+    <h2>Formulario de Contacto</h2>
 
-<h2>Formulario de Contacto</h2>
-
-<form action="enviar_correo.php" method="post">
-    <label for="nombre">Nombre:</label><br>
-    <input type="text" id="nombre" name="nombre" required><br>
-    <label for="correo">Correo electrónico:</label><br>
-    <input type="email" id="correo" name="correo" required><br>
-    <label for="mensaje">Mensaje:</label><br>
-    <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
-    <input type="submit" value="Enviar">
-</form>
+    <form action="https://formsubmit.co/juanfelipej919@gmail.com" method="post">
+        <div class="campos">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br>
+        <label for="cedula">Cedula:</label><br>
+        <input type="number" id="cedula" name="cedula" required><br>
+        <label for="celular">Celular</label><br>
+        <input type="number" id="celular" name="celular" required><br>
+        <label for="correo">Correo electrónico:</label><br>
+        <input type="email" id="correo" name="correo" required><br>
+    </div>
+        
+        <button type="submit">Enviar</button>
+    </form>
+    
+</div>
 
 </body>
-</html>
+</html> 

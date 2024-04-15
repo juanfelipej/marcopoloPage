@@ -17,6 +17,12 @@
     #intro {
         align-items: flex-start;
     }
+    .textModal {
+      font-size: 20px;
+    }
+    #closeBtn {
+        font-size: 19px;
+    }
     .introInfo{
         margin-left: 4%;
     }
