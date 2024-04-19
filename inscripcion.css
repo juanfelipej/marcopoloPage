@@ -16,7 +16,7 @@
     
 }
 h2{
-    font-size: 40px;
+    font-size: 21px;
     font-family: "Josefin Sans", sans-serif;
     color: white;
     margin: 27px;
@@ -49,7 +49,7 @@ button{
     padding: 13px;
     border-radius: 14px;
     border: none;
-    background: #4CAF50;
+    background: #1e81c1;
     color: white;
 }
 .campos{
@@ -57,7 +57,9 @@ button{
 }
 
 
-
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 var(--hover); }
+}
 
 @media only screen and (max-width: 992px) {
     h2 {

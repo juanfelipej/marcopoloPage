@@ -14,22 +14,26 @@
         <img class="imgBack" src="Resources/Images/png/volver.png" alt="volver">
     </a>
     
-    <h2>Formulario de Contacto</h2>
+    <h2>Quiero ser invitado, por favor enviar invitación.</h2>
 
     <form action="https://formsubmit.co/juanfelipej919@gmail.com" method="post">
         <div class="campos">
-        <label for="nombre">Nombre:</label><br>
-        <input type="text" id="nombre" name="nombre" required><br>
-        <label for="cedula">Cedula:</label><br>
-        <input type="number" id="cedula" name="cedula" required><br>
-        <label for="celular">Celular</label><br>
-        <input type="number" id="celular" name="celular" required><br>
-        <label for="correo">Correo electrónico:</label><br>
-        <input type="email" id="correo" name="correo" required><br>
-    </div>
-        
-        <button type="submit">Enviar</button>
+            <label for="nombre">Nombre y Apellido:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+            
+            <label for="cedula">Cédula:</label><br>
+            <input type="text" id="cedula" name="cedula" minlength="5" required><br>
+            
+            <label for="celular">Celular:</label><br>
+            <input type="text" id="celular" name="celular" minlength="10" required><br>
+            
+            <label for="correo">Correo electrónico:</label><br>
+            <input type="email" id="correo" name="correo" required><br>
+        </div>
+            
+        <button class="pulse" type="submit">Enviar</button>
     </form>
+    
     
 </div>
 

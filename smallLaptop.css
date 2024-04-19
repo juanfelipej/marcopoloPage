@@ -1,0 +1,28 @@
+@media only screen and (max-width: 1440px){
+    #div1 {
+        transform: translateX(-400px) scale(0.5);
+    }
+
+    #div2 {
+        transform: translateX(-26vw) scale(0.8);
+    }
+    #div3 {
+        transform: translateX(-228px) scale(0.5);
+    }
+
+}
+@media only screen and (max-width: 1680px){
+    #div1 {
+        transform: translateX(-18vw) scale(0.5);
+    }
+
+    #div2 {
+        transform: translateX(-14vw) scale(0.8);
+    }
+    #div3 {
+        transform: translateX(-3vw) scale(0.5);
+    }
+    .modal-content {
+        height: 28%;
+    }
+}

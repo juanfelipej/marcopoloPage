@@ -14,13 +14,14 @@
   font-family: "Josefin Sans", sans-serif;
 }
 #formcontacto>button{
-  background-color: green;
+  background-color: #ffffff;
   border-radius: 14px;
   border: none;
   font-size: 26px;
-  color: white;
+  color: #01426c;
   padding: 14px;
   margin: 24px;
+  font-weight: bold;
 }
 .campos>label>input{
   background-color: white;
@@ -342,6 +343,10 @@ iframe{
   flex-direction: row;
   width: 100%;
 }
+.interlineadoh1{
+  line-height: 1;
+}
+
 .tamañoContacto{
   font-size: 35px;
   color: #442c22;
@@ -676,6 +681,9 @@ body {
   justify-content: flex-start;
   flex-direction: column;
   position: relative;
+}
+.terminos{
+  color: white;
 }
 
 .close {

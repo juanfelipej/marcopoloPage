@@ -6,7 +6,7 @@ var closeBtn = document.getElementsByClassName("close")[0];
 
 // Mostrar el modal cuando la página cargue
 window.onload = function() {
-    modal.style.display = "block";
+    modal.style.display = "flex";
 }
 
 // Cerrar el modal cuando se hace clic en la X

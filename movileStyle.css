@@ -1,206 +1,205 @@
 /* Estilos para pantallas móviles */
 @media only screen and (max-width: 600px) {
-    .animation-container{
-  
-      display: flex;
-    }
-    .institucional>h3 {
-      text-align: center;
-    }
-    .container{
-      display: none !important;
-    }
-    .containerMovil{
-      display: block;
-      width: 80%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-    .btnarriba{
-      width: 45px;
-    }
-    #closeBtn {
-      font-size: 15px;
-      margin-top: 12px;
-  }
+  .animation-container{
 
-    .campos>label>input{
-      width: 100%;
-    }
-    #juegos>h1, .txtContacto>h1{
-      font-size: 40px;
-      margin: 67px 0 26px 0;
-    }
-    .txtContacto>p {
-      font-size: 18px;
-  }
-    #Contacto{
-      padding: 0px;
-    }
-    .btnarriba {
-      left: 79vw;
-      top: 81vh;
-  }
-    #div1,#div2,#div3, #div4{
-      display: none;
-    }
-    .iframe>iframe {
-      left: 181px;
-  }
-    .menu-icon {
-      display: block;
-      background-color: black;
-      padding: 6px;
-      border-radius: 6px;
-      margin: 24px;
-      color: white;
-      position: fixed;
-      left: 4px;
-    }
-    #ubicaciones{
-      padding-top: 150px;
-      background-position: -493px 0;
-      height: auto;
-      padding-bottom: 64px;
-    }
-    #ubicaciones>h1{
-      margin-top: 30px;
-    }
-    #intro{
-      height: 100vh;
-    }
-    .introInfo {
-      display: flex;
-      flex-direction: column;
-      width: 308px;
-      margin-left: 12px;
-      align-items: center;
-  }
-  .introInfo>h1 {
-    font-size: 35px;
-    color: white;
-    font-family: "Josefin Sans", sans-serif;
-    text-align: center;
-  }
-  .textModal {
-    font-size: 14px;
-}
-  nav{
-    background-color: #00000000;
-  }
-  nav>ul>li>a{
-    width: 100%;
-    text-align: center;
-  }
-  .introInfo>p {
-    color: white;
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 300;
-    font-size: 15px;
-  }
-  .contFooterSegundo > * {
-     padding: 8px 0px;
-     width: 194px;
-  }
-    .menu-items {
-        display: none; /* Ocultar la lista por defecto */
-    }
-    .oculatarimg{
-      display: none; 
-    }
-    .juegoResponsable {
-    width: 100%;
-    text-align: center;
-    }
-    .institucional {
-      
-      padding: 0px 0px;
-  }
-  .contFooterPrimero>img {
-    margin: 45px;
-  }
-  .redes>h3 {
-    padding: 45px 0px;
-    text-align: center;
-  }
-    nav.show{
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      flex-direction: column;
-  
-      background-color: rgb(34, 34, 34);
-      width: 100vw;
-      position: fixed;
-      z-index: 4;
-    }
-    nav>ul>li:hover{
-      text-decoration: none;
-      background-color: #00000063;
-    }
-    nav>ul>li{
-      text-decoration: none;
-      background-color: #0000006e;
-  
-    }
-    .menu-logo {
-      display: none; /* Ocultar la lista por defecto */
-      position: fixed;
-  }
-  .infoContacto{
     display: flex;
-    flex-direction: row;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
   }
-  .titulosJuegos {
-    margin: 20px 0;
+  .institucional>h3 {
+    text-align: center;
   }
-  #formcontacto{
-    width: 54%;
-    padding: 11%;
-    margin: 24px 0;
+  .container{
+    display: none !important;
   }
-  .juegos>img {
-    border-radius: 15px;
-      width: 100%;
-  }
-  .introInfo>button {
-    width: auto;
-    margin-top: 24px;
-  }
-  .campos{
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .contentJuegos{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    gap: 24px;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .menu-items.show {
+  .containerMovil{
     display: block;
-    margin: 0;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .btnarriba{
+    width: 45px;
+  }
+  #closeBtn {
+    font-size: 15px;
+    margin-top: 12px;
+}
+
+  .campos>label>input{
     width: 100%;
-    padding: 0;
-  
   }
-  .juegos{
-    width: 40%;
+  #juegos>h1, .txtContacto>h1{
+    font-size: 40px;
+    margin: 67px 0 26px 0;
+  }
+  .txtContacto>p {
+    font-size: 18px;
+}
+  #Contacto{
+    padding: 0px;
+  }
+  .btnarriba {
+    left: 79vw;
+    top: 81vh;
+}
+  #div1,#div2,#div3, #div4{
+    display: none;
+  }
+  .iframe>iframe {
+    left: 181px;
+}
+  .menu-icon {
+    display: block;
+    background-color: black;
+    padding: 6px;
+    border-radius: 6px;
+    margin: 24px;
+    color: white;
+    position: fixed;
+    left: 4px;
+  }
+  #ubicaciones{
+    padding-top: 150px;
+    background-position: -493px 0;
+    height: auto;
+    padding-bottom: 64px;
+  }
+  #ubicaciones>h1{
+    margin-top: 30px;
+  }
+  #intro{
+    height: 100vh;
+  }
+  .introInfo {
+    display: flex;
+    flex-direction: column;
+    width: 308px;
+    margin-left: 12px;
+    align-items: center;
+}
+.introInfo>h1 {
+  font-size: 34px;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+}
+.textModal {
+  font-size: 14px;
+}
+nav{
+  background-color: #00000000;
+}
+nav>ul>li>a{
+  width: 100%;
+  text-align: center;
+}
+.introInfo>p {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+.contFooterSegundo > * {
+   padding: 8px 0px;
+   width: 194px;
+}
+  .menu-items {
+      display: none; /* Ocultar la lista por defecto */
+  }
+  .oculatarimg{
+    display: none; 
+  }
+  .juegoResponsable {
+  width: 100%;
+  text-align: center;
+  }
+  .institucional {
+    
+    padding: 0px 0px;
+}
+.contFooterPrimero>img {
+  margin: 45px;
+}
+.redes>h3 {
+  padding: 45px 0px;
+  text-align: center;
+}
+  nav.show{
+    display: flex;
     justify-content: flex-start;
-    text-align: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: rgb(34, 34, 34);
+    width: 100vw;
+    position: fixed;
+    z-index: 4;
   }
-  #bar1,  #bar2{
-    transition: all 400ms cubic-bezier(.47,1.64,.41,.8);
+  nav>ul>li:hover{
+    text-decoration: none;
+    background-color: #00000063;
   }
+  nav>ul>li{
+    text-decoration: none;
+    background-color: #0000006e;
+
   }
-  
+  .menu-logo {
+    display: none; /* Ocultar la lista por defecto */
+    position: fixed;
+}
+.infoContacto{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.titulosJuegos {
+  margin: 20px 0;
+}
+#formcontacto{
+  width: 54%;
+  padding: 11%;
+  margin: 24px 0;
+}
+.juegos>img {
+  border-radius: 15px;
+    width: 100%;
+}
+.introInfo>button {
+  width: auto;
+  margin-top: 24px;
+}
+.campos{
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.contentJuegos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.menu-items.show {
+  display: block;
+  margin: 0;
+  width: 100%;
+  padding: 0;
+
+}
+.juegos{
+  width: 40%;
+  justify-content: flex-start;
+  text-align: center;
+}
+#bar1,  #bar2{
+  transition: all 400ms cubic-bezier(.47,1.64,.41,.8);
+}
+}

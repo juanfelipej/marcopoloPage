@@ -1,51 +1,44 @@
 @media only screen and (max-width: 320px) {
     .iframe>iframe {
-        left: 185%;
-        top: 2rem;
+        left: 271%;
+        top: 0rem;
         height: 35vw;
         width: 41vw;
     }
-    .introInfo {
+    .modal{
         display: flex;
-        flex-direction: column;
-        width: 83vw;
-        margin-left: 12px;
         align-items: center;
-        padding: 2%;
-    }
-    .introInfo>p {
-        color: white;
-        font-family: "Josefin Sans", sans-serif;
-        font-weight: 300;
-        font-size: 12px;
-    }
-    .introInfo>h1 {
-        font-size: 33px;
-        color: white;
-        font-family: "Josefin Sans", sans-serif;
-        text-align: center;
-    }
-    #ubicaciones>h1 {
-        
-        font-size: 35px;
     }
     .fondoblancoUbicacionesMovil>h1 {
-        font-size: 23px;
+        font-size: 25px;
     }
     .fondoblancoUbicacionesMovil>p {
-        font-size: 21px;
+        font-size: 27px;
     }
-    .txtContacto>p {
-        font-size: 13px;
+    .grupo>label {
+        font-size: 11px;
+        font-family: "Poppins", sans-serif;
     }
-    footer {
-        padding: 30px;
+    #checkbox {
+        margin-top: 24px;
+        font-size: 12px;
+    }
+    .btnarriba {
+        left: 77vw;
+        top: 79vh;
+    }
+    .textModal {
+        font-size: 15px;
+    }
+    #closeBtn {
+        font-size: 16px;
+        margin-top: 12px;
     }
     .modal-content {
-        margin: 67% auto;
+        margin: 35% auto;
     }
     .modal-content {
-        width: 56%;
-        height: 28%;
+        width: 43%;
+        height: 30%;
     }
 }

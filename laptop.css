@@ -1,0 +1,14 @@
+@media only screen and (max-width: 1366px){
+    #div2 {
+        transform: translateX(-28vw) scale(0.8);
+    }
+    #div1 {
+        transform: translateX(-31vw) scale(0.5);
+    }
+    #div3 {
+        transform: translateX(-16vw) scale(0.5);
+    }
+    .modal-content {
+        height: 31%;
+    }
+}
