@@ -677,6 +677,23 @@ body {
   font-family: Arial, sans-serif;
 }
 
+video::-webkit-media-controls-overlay {
+  display: none;
+}
+
+video::-webkit-media-controls-panel {
+  display: none!important;
+  -webkit-appearance: none;
+}
+
+*::-webkit-media-controls-play-button {
+  display: none!important;
+  -webkit-appearance: none;
+}
+
+*::-webkit-media-controls {
+  -webkit-appearance: none;
+}
 /* Estilos para el pop-up */
 .modal {
   display: none; /* Ocultar el pop-up por defecto */
