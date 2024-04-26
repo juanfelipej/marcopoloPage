@@ -681,7 +681,7 @@ body {
 .modal {
   display: none; /* Ocultar el pop-up por defecto */
   position: fixed;
-  z-index: 3;
+  z-index: 4;
   left: 0;
   top: 0;
   width: 100%;
