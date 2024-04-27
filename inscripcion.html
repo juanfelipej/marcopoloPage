@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="inscripcion.css">
+    <link rel="stylesheet" href="">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
         rel="stylesheet">
     <title>Formulario de Contacto Marcopolo</title>
@@ -15,25 +16,37 @@
     </a>
     
     <h2>Quiero ser invitado, por favor enviar invitación.</h2>
-
-    <form action="https://formsubmit.co/juanfelipej919@gmail.com" method="post">
+    <form id="formcontacto" action="https://formsubmit.co/juanfelipej919@gmail.com" method="post">
         <div class="campos">
             <label for="nombre">Nombre y Apellido:</label><br>
             <input type="text" id="nombre" name="nombre" required><br>
+            <span class="error-msg" id="nombre-error"></span> <br>
             
             <label for="cedula">Cédula:</label><br>
-            <input type="text" id="cedula" name="cedula" minlength="5" required><br>
+            <input type="text" id="cedula" name="cedula" minlength="8" required><br>
+            <span class="error-msg" id="cedula-error"></span>  <br>
             
             <label for="celular">Celular:</label><br>
             <input type="text" id="celular" name="celular" minlength="10" required><br>
+            <span class="error-msg" id="celular-error"></span> <br>
             
             <label for="correo">Correo electrónico:</label><br>
             <input type="email" id="correo" name="correo" required><br>
+            <span class="error-msg" id="correo-error"></span> <br>
+            <label id="checkbox" for="terminos">
+                <input type="checkbox" id="terminos" name="terminos" required>
+                <a class="terminos" href="https://vivealaddin.com/politica-privacidad/">He leído y acepto los términos y condiciones</a>
+                
+            </label>
         </div>
+        
             
         <button class="pulse" type="submit">Enviar</button>
     </form>
 </div>
-
+<div id="overlay" class="overlay"></div>
+<div id="loader" class="loader"></div>
+<script src="validaciones.js"></script>    
+<script src="validacionContacto.js"></script>
 </body>
 </html> 

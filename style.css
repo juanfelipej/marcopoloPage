@@ -670,8 +670,79 @@ footer>div>div>p{
 .animation-container{
   display: none;
 }
+#mensaje{
+  width: 100%;
+}
+.error {
+  border: 2px solid red;
+  margin-bottom: 1px;
+}
 
-  
+.error-msg{
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 13px;
+}
+/* Estilos para el botón */
+button.pulse {
+  background-color: #4CAF50; /* Color de fondo del botón */
+  color: white; /* Color del texto del botón */
+  padding: 10px 20px; /* Espaciado interno del botón */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor al pasar sobre el botón */
+  transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+/* Estilos para el botón al pasar el mouse (hover) */
+button.pulse:hover {
+  background-color: #45a049; /* Cambia el color de fondo al pasar el mouse */
+}
+
+/* Estilos para el botón cuando se presiona (active) */
+button.pulse:active {
+  background-color: #3e8e41; /* Cambia el color de fondo al presionar el botón */
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente negro */
+  z-index: 9998; /* Coloca el overlay detrás del loader */
+  display: none; /* Por defecto oculto */
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Gris claro */
+  border-top: 16px solid #3498db; /* Azul */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 1s linear infinite; /* Animación giratoria */
+  position: fixed; /* Posición fija para que se superponga en la pantalla */
+  z-index: 9999; /* Z-index alto para que esté encima del overlay */
+  top: 50%; /* Centra verticalmente */
+  left: 50%; /* Centra horizontalmente */
+  margin-top: -60px; /* Ajusta la posición vertical */
+  margin-left: -60px; /* Ajusta la posición horizontal */
+  display: none; /* Por defecto oculto */
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+/* inscripcion.css */
+
+.error {
+  border: 2px solid red !important;
+}
+
 /* Estilos base */
 body {
   font-family: Arial, sans-serif;

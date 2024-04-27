@@ -6,21 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Casino Marcopolo</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="largeDesktop.css">
-    <link rel="stylesheet" href="desktopRegular.css">
-    <link rel="stylesheet" href="macbook.css">
+    <link rel="stylesheet" href="responnsive/largeDesktop.css">
+    <link rel="stylesheet" href="responnsive/desktopRegular.css">
+    <link rel="stylesheet" href="responnsive/macbook.css">
     
     
-    <link rel="stylesheet" href="smallLaptop.css">
-    <link rel="stylesheet" href="laptop.css">
-    <link rel="stylesheet" href="normaldesktop.css">
-    <link rel="stylesheet" href="regularDesktop.css">
-    <link rel="stylesheet" href="iPadResolution.css">
-    <link rel="stylesheet" href="smallDesktop.css">
-    <link rel="stylesheet" href="tablet.css">
-    <link rel="stylesheet" href="movileStyle.css">
-    <link rel="stylesheet" href="smallMovil.css">
-    <link rel="stylesheet" href="extraSmallMovil.css">
+    <link rel="stylesheet" href="responsive/smallLaptop.css">
+    <link rel="stylesheet" href="responsive/laptop.css">
+    <link rel="stylesheet" href="responsive/normaldesktop.css">
+    <link rel="stylesheet" href="responsive/regularDesktop.css">
+    <link rel="stylesheet" href="responsive/iPadResolution.css">
+    <link rel="stylesheet" href="responsive/smallDesktop.css">
+    <link rel="stylesheet" href="responsive/tablet.css">
+    <link rel="stylesheet" href="responsive/movileStyle.css">
+    <link rel="stylesheet" href="responsive/smallMovil.css">
+    <link rel="stylesheet" href="responsive/extraSmallMovil.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,7 +39,7 @@
         <div class="modal-content">
             <div class="cerrar"><span class="close">&times;</span></div>
           
-          <p class="textModal">Próximamente inauguraremos nuestro nuevo <strong>Marco Polo en Holguines Trade Center Cali</strong>, inscríbete para recibir una invitación.</p>
+          <p class="textModal">Próximamente inauguraremos nuestro nuevo <strong>Marco Polo en Holguines Trade Center Cali</strong>, al sur de cali. Inscríbete para recibir una invitación.</p>
           <a href="inscripcion.html" id="closeBtn">Quiero ser invitado</a>
         </div>
       </div>
@@ -302,36 +302,43 @@
                     <div class="grupo">
                         <label for="nombre_apellido">Nombre y Apellido:</label> <br>
                         <input type="text" id="nombre_apellido" name="nombre_apellido" placeholder="Nombre y Apellido" required>
+                        <span id="nombre_apellido-error" class="error-msg"></span>
                         
                         <label for="correo">Correo electrónico:</label> <br>
-                        <input type="email" id="correo" name="correo" placeholder="Correo electrónico" required>
+                        <input type="email" id="correoElectronico" name="correo" placeholder="Correo electrónico" required>
+                        <span id="correo-error" class="error-msg"></span>
                         
                         <label for="telefono">Número celular o fijo:</label> <br>
-                        <input type="number" id="telefono" name="telefono" placeholder="Número celular o fijo" required>
+                        <input type="tel" id="telefono" name="telefono" placeholder="Número celular o fijo" pattern="[0-9]{10}" title="Por favor ingrese un número de celular válido de 10 dígitos." required>
+                        <span id="telefono-error" class="error-msg"></span>
                     </div>
                     
                     <div class="grupo">
                         <label for="motivo">Motivo de su mensaje:</label> <br>
                         <input type="text" id="motivo" name="motivo" placeholder="Motivo" required>
+                        <span id="motivo-error" class="error-msg"></span>
                         
                         <label for="mensaje">Mensaje:</label> <br>
                         <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required></textarea>
+                        <span id="mensaje-error" class="error-msg"></span>
                     </div>
-
+                
                 </div>
-               
                 
                 <label id="checkbox" for="terminos">
                     <input type="checkbox" id="terminos" name="terminos" required>
                     <a class="terminos" href="https://vivealaddin.com/politica-privacidad/">He leído y acepto los términos y condiciones</a>
-                    
                 </label>
-                <button type="submit">Enviar</button>
+                <button class="pulse" type="submit">Enviar</button>
             </form>
             
             
             
         </div>
+        <div id="overlay" class="overlay"></div>
+<div id="loader" class="loader"></div>
+
+
     </section>
     <footer>
         <div class="contFooterPrimero">
@@ -375,7 +382,8 @@
             </div>
             
         </div>
-    </footer>
+    </footer> 
+    <script src="validacionContacto.js"></script>
     <script src="javascript.js"></script>
     <script src="menuscript.js"></script>
     <script src="modalScript.js"></script>
