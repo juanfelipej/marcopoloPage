@@ -13,6 +13,14 @@
     }
   
     .modal-content {
-        height: 34%;
+        height: 23%;
+    }
+    .textModal {
+        color: rgb(67 67 67) ;
+        font-size: 15px ;
+    }
+    #closeBtn {
+        width: 54% ;
+        font-size: 14px ;
     }
 }

@@ -25,11 +25,10 @@
 }
   .textModal {
     font-size: 15px;
-}.modal-content {
-  
-margin: 20% auto;
-  
-height: 20%;
+}    .modal-content {
+  margin: 23% auto;
+  height: 24%;
+  width: 55%;
 }
   .infoContactoUbicacionesMovil>p{
       font-size: 15px;
@@ -187,6 +186,11 @@ nav>ul>li>a{
 .juegos>img {
   border-radius: 15px;
     width: 100%;
+}
+.content_popup>img {
+  width: 24vw;
+  height: 21vh;
+  border-radius: 7px;
 }
 .introInfo>button {
   width: auto;

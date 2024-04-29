@@ -30,23 +30,33 @@
             <input type="text" id="celular" name="celular" minlength="10" required><br>
             <span class="error-msg" id="celular-error"></span> <br>
             
+            <label for="fecha_nacimiento">Fecha de nacimiento:</label><br>
+            <input class="date" type="date" id="fecha_nacimiento" name="fecha_nacimiento" required><br>
+            <span class="error-msg" id="fecha_nacimiento-error"></span> <br>
+            
             <label for="correo">Correo electrónico:</label><br>
             <input type="email" id="correo" name="correo" required><br>
             <span class="error-msg" id="correo-error"></span> <br>
+            
             <label id="checkbox" for="terminos">
                 <input type="checkbox" id="terminos" name="terminos" required>
                 <a class="terminos" href="https://vivealaddin.com/politica-privacidad/">He leído y acepto los términos y condiciones</a>
-                
             </label>
         </div>
         
-            
         <button class="pulse" type="submit">Enviar</button>
     </form>
+    
+    
+    
+    
+    
+    
 </div>
 <div id="overlay" class="overlay"></div>
 <div id="loader" class="loader"></div>
 <script src="validaciones.js"></script>    
 <script src="validacionContacto.js"></script>
+
 </body>
 </html> 

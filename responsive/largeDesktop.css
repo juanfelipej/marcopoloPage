@@ -4,10 +4,7 @@
         color: #01426c;
         font-size: 63px;
     }
-    .textModal {
-        color: rgb(67 67 67);
-        font-size: 25px;
-    }
+    
     .cont_grupos{
         width: 100%;
         display: flex;
@@ -26,7 +23,7 @@
         margin: 15% auto;
         padding: 19px 30px 40px 21px;
         width: 25%;
-        height: 20%;
+        height: 24%;
         border-radius: 24px;
         color: white;
         text-align: center;
@@ -49,6 +46,22 @@
         height: 35px;
         border-radius: 5px;
         border: none;
+    }
+    #closeBtn {
+        width: 67%;
+        border-radius: 17px;
+        color: white;
+        background-color: #287d31;
+        font-size: 18px;
+        text-align: center;
+        text-decoration: none;
+        justify-items: center;
+        margin-top: 14px;
+        padding: 8px;
+    }
+    .textModal {
+        color: rgb(67 67 67);
+        font-size: 15px;
     }
     .grupo>textarea{
         width: 100%;
@@ -75,12 +88,12 @@
         margin-left: 6%;
     }
     #div2{
-        transform: translateX(-146px);
+        transform: translateX(-9vw) scale(1);
     }
     #div1{
-        transform: translateX(-400px) scale(0.5);
+        transform: translateX(-21vw) scale(0.5);
     }
     #div3{
-        transform: translateX(281px) scale(0.5);
+        transform: translateX(14vw) scale(0.5);
     }
 }

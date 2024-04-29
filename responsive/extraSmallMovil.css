@@ -27,18 +27,31 @@
         left: 77vw;
         top: 79vh;
     }
-    .textModal {
-        font-size: 15px;
-    }
+
     #closeBtn {
         font-size: 16px;
         margin-top: 12px;
     }
+   
     .modal-content {
-        margin: 35% auto;
+        width: 51%;
+        height: 41%;
     }
-    .modal-content {
-        width: 43%;
-        height: 30%;
+    .info_popup {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        font-size: 12px;
+    }    .content_popup>img {
+        width: 52vw;
+        height: 16vh;
+        border-radius: 7px;
+        margin-bottom: 11px;
     }
+    .textModal {
+        color: rgb(67 67 67);
+        font-size: 12px;
+    }
+
 }

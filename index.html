@@ -6,12 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Casino Marcopolo</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responnsive/largeDesktop.css">
-    <link rel="stylesheet" href="responnsive/desktopRegular.css">
-    <link rel="stylesheet" href="responnsive/macbook.css">
-    
-    
+    <link rel="stylesheet" href="responsive/largeDesktop.css">
     <link rel="stylesheet" href="responsive/smallLaptop.css">
+    <link rel="stylesheet" href="responsive/macbook.css">
     <link rel="stylesheet" href="responsive/laptop.css">
     <link rel="stylesheet" href="responsive/normaldesktop.css">
     <link rel="stylesheet" href="responsive/regularDesktop.css">
@@ -21,6 +18,10 @@
     <link rel="stylesheet" href="responsive/movileStyle.css">
     <link rel="stylesheet" href="responsive/smallMovil.css">
     <link rel="stylesheet" href="responsive/extraSmallMovil.css">
+    
+    
+    
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,54 +37,65 @@
 
 <body>
     <div id="myModal" class="modal">
+        
         <div class="modal-content">
-            <div class="cerrar"><span class="close">&times;</span></div>
-          
-          <p class="textModal">Próximamente inauguraremos nuestro nuevo <strong>Marco Polo en Holguines Trade Center Cali</strong>, al sur de cali. Inscríbete para recibir una invitación.</p>
-          <a href="inscripcion.html" id="closeBtn">Quiero ser invitado</a>
+            
+             
+            <div class="cerrar"><span class="close">&times;</span></div><div class="content_popup">
+
+            <img  src="Resources/Images/jpg/popupHolguinesFachada.jpg" alt="">
+            <div class="info_popup">
+            <p class="textModal">Próximamente inauguraremos nuestro nuevo <strong>Marco Polo en Holguines Trade
+                    Center</strong>, en el sur de Cali.</p>
+            <br>
+            <p  class="textModal">Inscríbase para recibir una invitación.</p>
+            <a href="inscripcion.html" id="closeBtn">Quiero ser invitado</a>
         </div>
-      </div>
+            </div>
+            
+        </div>
+    </div>
     <a href="#intro">
         <img class="btnarriba" src="Resources/Images/png/arribabtn.png" alt="">
     </a>
-   <header>
-    
-    <nav>
-        <div id="menu" class="menu-icon">
-            <div id="bar1" class="bar"></div>
-            <div id="bar2" class="bar"></div>
-            <div id="bar3" class="bar"></div>
-        </div>
-        
-        <img class="logoMarcopoloNavbar oculatarimg" src="Resources/Images/png/MarcoPoloLogo.png" alt="Logo Marcopolo">
-        
-        <ul class="menu-items">
-            <li id="elementosLista1"><a class="josefin-sans linkshover" href="blackjack/balckjack.html">Juegos</a></li>
-            <li id="elementosLista2"><a class="josefin-sans linkshover" href="#ubicaciones">Ubicaciones</a></li>
-            <li id="elementosLista3"><a class="josefin-sans linkshover" href="#Contacto">Contacto</a></li>
-        </ul>
-    </nav>
-</header>
+    <header>
 
-<section id="intro" class="animado">
-    <div class="video-container">
-        <video class="background-video" muted playsinline autoplay loop muted>
-            <source src="Resources/video/Marco Polo2.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-        </video>
-    </div>
-    <div class="introInfo">
-        <h1>
-            ¡Descubre el mundo Marco Polo!
-        </h1>
-        <p>
-            Donde cada acción te lleva hacia emociones intensas.
-        </p>
-    </div>
-    <div class="animation-container">
-        <img id="animation" src="Resources/Images/png/Variant1.png" alt="Variant 1">
-    </div>
-</section>
+        <nav>
+            <div id="menu" class="menu-icon">
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+            </div>
+
+            <img class="logoMarcopoloNavbar oculatarimg" src="Resources/Images/png/MarcoPoloLogo.png"
+                alt="Logo Marcopolo">
+
+            <ul class="menu-items">
+                <li id="elementosLista1"><a class="josefin-sans linkshover" href="#juegos">Juegos</a></li>
+                <li id="elementosLista2"><a class="josefin-sans linkshover" href="#ubicaciones">Ubicaciones</a></li>
+                <li id="elementosLista3"><a class="josefin-sans linkshover" href="#Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="intro" class="animado">
+        <div class="video-container">
+            <video class="background-video" muted playsinline autoplay loop muted>
+                <source src="Resources/video/Marco Polo2.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+        </div>
+        <div class="introInfo">
+            <h1>
+                Disfrute el mundo <span><img class="logoIntro" src="Resources/Images/png/logocasino.png"
+                        alt="Logo Marcopolo"></span>
+            </h1>
+            <span><img class="eslogan" src="Resources/Images/png/Oriente su suerte.png" alt="Logo Marcopolo"></span>
+        </div>
+        <div class="animation-container">
+            <img id="animation" src="Resources/Images/png/Variant1.png" alt="Variant 1">
+        </div>
+    </section>
 
 
     <section id="juegos" class="animado">
@@ -119,7 +131,7 @@
     <section id="ubicaciones" class="animado">
         <h1 id="anclaubicaciones" class="titulos josefin-sans colorCafe">Ubicaciones</h1>
         <div class="container">
-            
+
             <div id="div1" class="div2 box">
                 <img class="imgUbicacion" src="Resources/Images/png/marcopoloBogota.png" alt="">
                 <div class="fondoblancoUbicaciones">
@@ -184,23 +196,26 @@
                 <img class="imgUbicacion" src="Resources/Images/png/marcopoloHolguines.png" alt="">
                 <div class="fondoblancoUbicaciones">
                     <p class="poppins-light tamañoContacto">Cali</p>
-                    <h1 class="poppins-bold tamañoContacto">Holguines P.C.</h1>
+                    <h1 class="poppins-bold tamañoContacto">Holguines T.C.</h1>
                     <div class="infoContactoUbicaciones">
                         <img class="iconoUbicacion" src="Resources/Images/png/ubicacion.png" alt="Logo Ubicacion">
-                        <p class="poppins-light">Calle 100 B # 11A - 19 local # 200 </p>
+                        <p class="poppins-light">Calle 100 B # 11A - 19 local # 200, en el sur de Cali. </p>
                     </div>
                     <div class="infoContactoUbicaciones">
                         <img src="Resources/Images/png/telefono.png" alt="Logo Telefono">
                         <p class="poppins-light">()</p>
                     </div>
 
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63724.00332857552!2d-76.5807806381355!3d3.4109623507831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a17a4d89d2f7%3A0x3543b74a3e50b507!2sHolguines%20Trade%20Center!5e0!3m2!1sen!2sco!4v1713192827856!5m2!1sen!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63724.00332857552!2d-76.5807806381355!3d3.4109623507831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a17a4d89d2f7%3A0x3543b74a3e50b507!2sHolguines%20Trade%20Center!5e0!3m2!1sen!2sco!4v1713192827856!5m2!1sen!2sco"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
         <div class="containerMovil">
             <div class="ubicacion1">
-                
+
                 <div class="fondoblancoUbicacionesMovil">
                     <p class="poppins-light ">Bogotá</p>
                     <h1 class="poppins-bold ">100 con 15</h1>
@@ -213,16 +228,16 @@
                         <p class="poppins-light"> (+57) 323 453 1657</p>
                     </div>
                     <div class="iframe">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63627.24277380996!2d-74.10405310167417!3d4.647024603852156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9ba4546f5f71%3A0x39fa4118f4560f3f!2sCasino%20Marco%20Polo!5e0!3m2!1sen!2sco!4v1712789471006!5m2!1sen!2sco"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>  
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63627.24277380996!2d-74.10405310167417!3d4.647024603852156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9ba4546f5f71%3A0x39fa4118f4560f3f!2sCasino%20Marco%20Polo!5e0!3m2!1sen!2sco!4v1712789471006!5m2!1sen!2sco"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                 </div>
                 <img class="imgUbicacionMovil" src="Resources/Images/png/marcopoloBogMovil.png" alt="">
             </div>
             <div class="ubicacion1">
-                
+
                 <div class="fondoblancoUbicacionesMovil">
                     <p class="poppins-light ">Cali</p>
                     <h1 class="poppins-bold ">Hotel Intercontinental</h1>
@@ -235,16 +250,16 @@
                         <p class="poppins-light">(602)28857458</p>
                     </div>
                     <div class="iframe">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63627.24277380996!2d-74.10405310167417!3d4.647024603852156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9ba4546f5f71%3A0x39fa4118f4560f3f!2sCasino%20Marco%20Polo!5e0!3m2!1sen!2sco!4v1712789471006!5m2!1sen!2sco"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>  
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63627.24277380996!2d-74.10405310167417!3d4.647024603852156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9ba4546f5f71%3A0x39fa4118f4560f3f!2sCasino%20Marco%20Polo!5e0!3m2!1sen!2sco!4v1712789471006!5m2!1sen!2sco"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                 </div>
                 <img class="imgUbicacionMovil" src="Resources/Images/png/marcopoloInterMovil.png" alt="">
             </div>
             <div class="ubicacion1">
-                
+
                 <div class="fondoblancoUbicacionesMovil">
                     <p class="poppins-light ">Barranquilla</p>
                     <h1 class="poppins-bold ">Mall plaza Buenavista</h1>
@@ -257,86 +272,95 @@
                         <p class="poppins-light">(+57) 316 0859199</p>
                     </div>
                     <div class="iframe">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63627.24277380996!2d-74.10405310167417!3d4.647024603852156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9ba4546f5f71%3A0x39fa4118f4560f3f!2sCasino%20Marco%20Polo!5e0!3m2!1sen!2sco!4v1712789471006!5m2!1sen!2sco"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>  
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63627.24277380996!2d-74.10405310167417!3d4.647024603852156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9ba4546f5f71%3A0x39fa4118f4560f3f!2sCasino%20Marco%20Polo!5e0!3m2!1sen!2sco!4v1712789471006!5m2!1sen!2sco"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                 </div>
                 <img class="imgUbicacionMovil" src="Resources/Images/png/marcopoloBarranquillaMovil.png" alt="">
             </div>
             <div class="ubicacion1">
-                
+
                 <div class="fondoblancoUbicacionesMovil">
                     <p class="poppins-light ">Cali</p>
-                    <h1 class="poppins-bold ">Holguines P.C.</h1>
+                    <h1 class="poppins-bold ">Holguines T.C.</h1>
                     <div class="infoContactoUbicacionesMovil">
                         <img class="iconoUbicacionMovil" src="Resources/Images/png/ubicacion.png" alt="Logo Ubicacion">
-                        <p class="poppins-light">Calle 100 B # 11A - 19 local # 200</p>
+                        <p class="poppins-light">Calle 100 B # 11A - 19 local # 200, en el sur de Cali.</p>
                     </div>
                     <div class="infoContactoUbicacionesMovil">
                         <img class="iconoUbicacionMovil" src="Resources/Images/png/telefono.png" alt="Logo Telefono">
                         <p class="poppins-light">()</p>
                     </div>
                     <div class="iframe">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63724.00332857552!2d-76.5807806381355!3d3.4109623507831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a17a4d89d2f7%3A0x3543b74a3e50b507!2sHolguines%20Trade%20Center!5e0!3m2!1sen!2sco!4v1713192827856!5m2!1sen!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>  
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63724.00332857552!2d-76.5807806381355!3d3.4109623507831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a17a4d89d2f7%3A0x3543b74a3e50b507!2sHolguines%20Trade%20Center!5e0!3m2!1sen!2sco!4v1713192827856!5m2!1sen!2sco"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                 </div>
                 <img class="imgUbicacionMovil" src="Resources/Images/png/marcopoloHolguinesMovil.png" alt="">
             </div>
         </div>
-        
+
 
     </section>
     <section id="Contacto" class="animado">
         <div class="infoContacto">
             <div class="txtContacto">
                 <h1 class="titulos josefin-sans">Contacto</h1>
-                <p class="josefin-sans">Tu opinión es valiosa para nosotros.
-                    Utiliza este formulario para compartir tus <strong> peticiones, quejas, reclamos, sugerencias y/o felicitaciones.</strong> 
-                    </p>
-                    <p class="josefin-sans">¡Estamos aquí para atenderte!</p>
+                <p class="josefin-sans">Su opinión es valiosa para nosotros. <br>
+                    Utilice este formulario para compartir sus <strong> peticiones, quejas, reclamos, sugerencias y/o
+                        felicitaciones.</strong>
+                </p>
+                <p class="josefin-sans">¡Estamos aquí para atenderle!</p>
             </div>
             <form id="formcontacto" action="https://formsubmit.co/juanfelipej919@gmail.com" method="POST">
                 <div class="cont_grupos">
                     <div class="grupo">
                         <label for="nombre_apellido">Nombre y Apellido:</label> <br>
-                        <input type="text" id="nombre_apellido" name="nombre_apellido" placeholder="Nombre y Apellido" required>
+                        <input type="text" id="nombre_apellido" name="nombre_apellido" placeholder="Nombre y Apellido"
+                            required>
                         <span id="nombre_apellido-error" class="error-msg"></span>
-                        
+
                         <label for="correo">Correo electrónico:</label> <br>
-                        <input type="email" id="correoElectronico" name="correo" placeholder="Correo electrónico" required>
+                        <input type="email" id="correoElectronico" name="correo" placeholder="Correo electrónico"
+                            required>
                         <span id="correo-error" class="error-msg"></span>
-                        
+
                         <label for="telefono">Número celular o fijo:</label> <br>
-                        <input type="tel" id="telefono" name="telefono" placeholder="Número celular o fijo" pattern="[0-9]{10}" title="Por favor ingrese un número de celular válido de 10 dígitos." required>
+                        <input type="tel" id="telefono" name="telefono" placeholder="Número celular o fijo"
+                            pattern="[0-9]{10}" title="Por favor ingrese un número de celular válido de 10 dígitos."
+                            required>
                         <span id="telefono-error" class="error-msg"></span>
                     </div>
-                    
+
                     <div class="grupo">
                         <label for="motivo">Motivo de su mensaje:</label> <br>
                         <input type="text" id="motivo" name="motivo" placeholder="Motivo" required>
                         <span id="motivo-error" class="error-msg"></span>
-                        
+
                         <label for="mensaje">Mensaje:</label> <br>
                         <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required></textarea>
                         <span id="mensaje-error" class="error-msg"></span>
                     </div>
-                
+
                 </div>
-                
+
                 <label id="checkbox" for="terminos">
                     <input type="checkbox" id="terminos" name="terminos" required>
-                    <a class="terminos" href="https://vivealaddin.com/politica-privacidad/">He leído y acepto los términos y condiciones</a>
+                    <a class="terminos" href="https://vivealaddin.com/politica-privacidad/">He leído y acepto los
+                        términos y condiciones</a>
                 </label>
                 <button class="pulse" type="submit">Enviar</button>
             </form>
-            
-            
-            
+
+
+
         </div>
         <div id="overlay" class="overlay"></div>
-<div id="loader" class="loader"></div>
+        <div id="loader" class="loader"></div>
 
 
     </section>
@@ -360,14 +384,14 @@
             <div class="redes">
                 <h3>Síguenos</h3>
                 <div>
-                    <a href="https://www.instagram.com/marcopolocasinos"  style="
+                    <a href="https://www.instagram.com/marcopolocasinos" style="
                     color: #f0f8ff00;">
                         <img src="Resources/Images/png/logoInstagram.png" alt="Logo Instagram">
                     </a>
-                    
+
                     <a href="https://www.facebook.com/MarcoPoloCasinos">
                         <img src="Resources/Images/png/logoFacebook.png" alt="Logo Facebook">
-                    </a>    
+                    </a>
                 </div>
             </div>
             <img src="Resources/Images/png/logoColJuegos.png" alt="Logo Coljuegos">
@@ -376,13 +400,13 @@
             <img src="Resources/Images/png/ministerioFooter.png" alt="Logo de ministerio de hacienda y credito publico">
             <img src="Resources/Images/png/logoFooter.png" alt="Logo marcopolo">
             <div style="text-align: center;">
-                
+
                 <p>Hecho con 🤍 por el departamento de comunicaciones.</p>
                 <p>© 2024 Aladdin Hotel & Casino S.A.S.</p>
             </div>
-            
+
         </div>
-    </footer> 
+    </footer>
     <script src="validacionContacto.js"></script>
     <script src="javascript.js"></script>
     <script src="menuscript.js"></script>

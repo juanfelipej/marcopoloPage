@@ -23,9 +23,20 @@
         font-size: 11px;
         font-family: "Poppins", sans-serif;
     }
+    .content_popup {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     #checkbox {
         margin-top: 24px;
         font-size: 12px;
+    }
+    .content_popup>img {
+        width: 47vw;
+        height: 18vh;
+        border-radius: 7px;
+        margin-bottom: 11px;
     }
     .btnarriba {
         left: 77vw;

@@ -7,9 +7,28 @@
   .institucional>h3 {
     text-align: center;
   }
+  .modal-content {
+    margin: 23% auto;
+    height: 28%;
+    width: 55%;
+}
   .container{
     display: none !important;
   }
+  .content_popup>img {
+    width: 28vw;
+    height: 22vh;
+    border-radius: 7px;
+}
+.textModal {
+  color: rgb(67 67 67);
+  font-size: 14px;
+}
+.modal-content {
+  margin: 23% auto;
+  height: 26%;
+  width: 66%;
+}
   .containerMovil{
     display: block;
     width: 80%;

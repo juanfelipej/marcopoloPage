@@ -1,12 +1,14 @@
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
-    .introInfo{
+    .introInfo {
         text-align: center;
         margin-left: 0;
     }
+
     .textModal {
         font-size: 14px;
     }
+
     #intro {
         background-image: url(Resources/Images/jpg/introcasino.jpg);
         height: 100vh;
@@ -17,10 +19,12 @@
         flex-direction: column;
         align-content: center;
     }
+    
     .cerrar {
         width: 100%;
         height: 24%;
     }
+
     .juegos {
         display: flex;
         flex-direction: column;
@@ -28,17 +32,26 @@
         align-items: center;
         width: 31%;
     }
-    .logoMarcopoloNavbar{
-        margin-left: 50px;
-    }.modal-content {
-      
-width: 29%;
-      
-height: 11%;
+.modal-content{
+    padding: 19px 30px 36px 28px;
+    width: 44%;
+        height: 25%;
+}
+    .content_popup>img {
+        width: 19vw;
+        height: 21vh;
+        border-radius: 7px;
     }
+
+    .logoMarcopoloNavbar {
+        margin-left: 50px;
+    }
+
+
     #closeBtn {
         font-size: 16px;
     }
+
     .cont_grupos {
         width: 100%;
         display: flex;
@@ -46,65 +59,79 @@ height: 11%;
         height: auto;
         justify-content: space-between;
     }
+
     .grupo {
         width: 100%;
         height: auto;
     }
-    .grupo>label{
+
+    .grupo>label {
         font-size: 20px;
         font-family: "Poppins", sans-serif;
     }
-    .grupo>input{
+
+    .grupo>input {
         width: 100%;
         height: 35px;
         border-radius: 5px;
         border: none;
     }
+
     .institucional {
         width: 306px;
         padding: 0;
     }
+
     .logoMarcopoloNavbar {
-      
+
         margin-left: 32px;
     }
-    .grupo>textarea{
+
+    .grupo>textarea {
         width: 100%;
         height: 34%;
         border-radius: 5px;
         border: none;
     }
-    #checkbox{
+
+    #checkbox {
         margin-top: 24px;
     }
+
     .institucional>ul {
         margin-left: 8%;
         padding: 0;
         list-style: auto;
         width: 82%;
     }
+
     .institucional>ul>li {
         color: white;
         list-style: outside;
         width: 100%;
     }
+
     .institucional>ul {
         margin-left: 8%;
         padding: 0;
         list-style: auto;
         width: 82%;
     }
+
     .contFooterPrimero>img {
         width: 120px;
         height: 120px;
         margin-top: 6%;
     }
+
     #div1 {
         transform: translateX(-48vw) scale(0.4);
     }
+
     #div2 {
         transform: translateX(-56vw) scale(0.7);
     }
+
     #div3 {
         transform: translateX(-49vw) scale(0.5);
     }

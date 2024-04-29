@@ -11,4 +11,9 @@
     #div3 {
         transform: translateX(-51vw) scale(0.4);
     }
+    .content_popup> img {
+        width: 16vw;
+        height: 21vh;
+        border-radius: 7px;
+    }
 }
