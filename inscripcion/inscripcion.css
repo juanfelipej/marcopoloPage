@@ -26,6 +26,7 @@
     border-radius: 7px;
     border: none;
     margin: 11px 0;
+    text-align: center;
 }
 
 .overlay {
@@ -66,7 +67,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image: url(Resources/Images/jpg/introcasino.jpg);
+    background-image: url(../Resources/Images/jpg/introcasino.jpg);
 }
 .imgBack{
     width: 45px;
