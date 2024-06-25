@@ -6,12 +6,22 @@
     .oculatarimg {
         display: none;
     }
+    #opening>img {
+      height: 100vh;
+  }
+  
     .menu-items.show {
       display: block;
       margin: 0;
       width: 100%;
       padding: 0;
   }
+  #logoMPIntro {
+    opacity: 1;
+    transition: opacity 3s ease;
+    height: 97px !important;
+    width: 322px !important;
+}
   body > main > section.container.text-center.hero > div > div:nth-child(1){
     margin: 50px 0;
 
