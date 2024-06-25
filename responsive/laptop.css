@@ -9,6 +9,17 @@
         transform: translateX(-16vw) scale(0.5);
     }
     .modal-content {
-        height: 22%;
+        height: 14%;
+    }
+    .content_popup> img {
+        width: 13vw;
+        height: 12vh;
+        border-radius: 7px;
+    }
+    .info_popup {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
     }
 }

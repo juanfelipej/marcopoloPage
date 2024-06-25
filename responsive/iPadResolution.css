@@ -1,6 +1,7 @@
 @media only screen and (max-width: 1024px){
     .modal-content {
-        height: 26%;
+        height: 15%;
+        width: 44%;
     }
     #div1 {
         transform: translateX(-42vw) scale(0.4);
@@ -12,8 +13,8 @@
         transform: translateX(-51vw) scale(0.4);
     }
     .content_popup> img {
-        width: 16vw;
-        height: 21vh;
+        width: 20vw;
+        height: 13vh;
         border-radius: 7px;
     }
 }

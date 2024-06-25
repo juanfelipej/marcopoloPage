@@ -18,7 +18,7 @@
         align-items: flex-start;
     }
     .textModal {
-      font-size: 16px;
+      font-size: 13px;
     }
     #closeBtn {
         font-size: 19px;
@@ -79,7 +79,7 @@
         font-family: "Poppins", sans-serif;
     }
     .modal-content {
-        height: 22%;
+        height: 15%;
     }
     .grupo>input{
         width: 100%;
@@ -95,5 +95,10 @@
     }
     #checkbox{
         margin: 6%;
+    }
+    .content_popup> img {
+        width: 13vw;
+        height: 14vh;
+        border-radius: 7px;
     }
 }

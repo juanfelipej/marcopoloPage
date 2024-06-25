@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1280px){
     .modal-content {
-        height: 38%;
+        height: 16%;
     }
     #div1 {
         transform: translateX(-38vw) scale(0.5);
@@ -13,14 +13,19 @@
     }
   
     .modal-content {
-        height: 23%;
+        height: 21%;
     }
     .textModal {
-        color: rgb(67 67 67) ;
-        font-size: 15px ;
+        color: rgb(67 67 67);
+        font-size: 15px;
     }
     #closeBtn {
         width: 54% ;
         font-size: 14px ;
+    }
+    .content_popup> img {
+        width: 13vw;
+        height: 16vh;
+        border-radius: 7px;
     }
 }

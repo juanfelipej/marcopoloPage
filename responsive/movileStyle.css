@@ -1,5 +1,15 @@
 /* Estilos para pantallas móviles */
 @media only screen and (max-width: 600px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 96px;
+    width: 100%;
+    position: fixed;
+    z-index: 4;
+}
   .animation-container{
 
     display: flex;
@@ -17,7 +27,7 @@
   }
   .content_popup>img {
     width: 28vw;
-    height: 22vh;
+    height: 15vh;
     border-radius: 7px;
 }
 .textModal {
@@ -25,8 +35,8 @@
   font-size: 14px;
 }
 .modal-content {
-  margin: 23% auto;
-  height: 26%;
+  margin: 83% auto;
+  height: 17%;
   width: 66%;
 }
   .containerMovil{
@@ -98,7 +108,7 @@
     align-items: center;
 }
 .introInfo>h1 {
-  font-size: 34px;
+  font-size: 26px;
   color: white;
   font-family: "Josefin Sans", sans-serif;
   text-align: center;
@@ -182,6 +192,9 @@ nav>ul>li>a{
   width: 54%;
   padding: 11%;
   margin: 24px 0;
+}
+header{
+  background-color: #00000000;
 }
 .juegos>img {
   border-radius: 15px;

@@ -29,9 +29,9 @@ document.addEventListener('DOMContentLoaded', function() {
     function validarCedula() {
         var cedula = cedulaInput.value;
         var cedulaError = document.getElementById('cedula-error');
-        if (cedula.length < 8 || /[^\d]/.test(cedula)) {
+        if (cedula.length < 6 || /[^\d]/.test(cedula)) {
             cedulaInput.classList.add('error');
-            cedulaError.textContent = "Debe contener solo números y mínimo 8 dígitos";
+            cedulaError.textContent = "Debe contener solo números y mínimo 6 dígitos";
         } else {
             cedulaInput.classList.remove('error');
             cedulaError.textContent = "";

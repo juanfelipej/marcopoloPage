@@ -7,8 +7,8 @@
         font-size: 16px ;
     }
     .modal-content {
-        height: 22%;
-        width: 34%;
+        height: 17%;
+        width: 31%;
     }
 
     #div1 {
@@ -24,5 +24,17 @@
     .textModal {
         color: rgb(67 67 67);
         font-size: 14px;
+    }
+    .content_popup> img {
+        width: 12vw;
+        height: 15vh;
+        border-radius: 7px;
+    }
+    .info_popup {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 236px;
+        margin-left: 11px;
     }
 }

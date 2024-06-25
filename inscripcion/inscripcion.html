@@ -8,22 +8,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
         rel="stylesheet">
     <title>Formulario de Contacto Marcopolo</title>
-</head>
+</head>   
 <body>
 <div class="formulario">
-    <a href="index.html">
+    <a href="../index.html">
         <img class="imgBack" src="../Resources/Images/png/volver.png" alt="volver">
     </a>
     
     <h2>Quiero ser invitado, por favor enviar invitación.</h2>
-    <form id="formcontacto" action="https://formsubmit.co/juanfelipej919@gmail.com" method="post">
+    <form name="contact-form" id="formcontacto" action="" method="post">
         <div class="campos">
             <label for="nombre">Nombre y Apellido:</label><br>
             <input type="text" id="nombre" name="nombre" required><br>
             <span class="error-msg" id="nombre-error"></span> <br>
             
             <label for="cedula">Cédula:</label><br>
-            <input type="text" id="cedula" name="cedula" minlength="8" required><br>
+            <input type="text" id="cedula" name="cedula" minlength="6" required><br>
             <span class="error-msg" id="cedula-error"></span>  <br>
             
             <label for="celular">Celular:</label><br>
@@ -57,6 +57,6 @@
 <div id="loader" class="loader"></div>
 <script src="validaciones.js"></script>    
 <script src="validacionContacto.js"></script>
-
+<script src="form.js"></script>
 </body>
 </html> 
