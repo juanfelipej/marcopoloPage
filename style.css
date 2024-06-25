@@ -629,6 +629,7 @@ footer>div>div>p{
 .ubicacion1{
   width: 100%;
   margin-top: 35px;
+  position: relative;
 }
 .fondoblancoUbicacionesMovil>p,h1{
   color: #442c22;
@@ -1766,4 +1767,13 @@ header {
   opacity: 0; /* Inicialmente invisible */
   pointer-events: none;
   transition: opacity 0.3s ease-out; /* Transición de desvanecimiento */
+}
+
+.vermasMovil{
+  position: absolute;
+  left: 82px;
+  bottom: 21px;
+}
+.vermasMovil>img{
+  width: 150px;
 }
