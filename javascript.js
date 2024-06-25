@@ -9,12 +9,20 @@ document.addEventListener('DOMContentLoaded', () => {
     const ubi4 = document.querySelector('#ubi4');
     const btnSiguienteIzqBGT = document.querySelector('#btnSiguienteIzqBGT');
     const btnSiguienteIzqHLG = document.querySelector('#btnSiguienteIzqHLG');
+    const btnSiguienteDerHLG = document.querySelector('#btnSiguienteDerHLG');
+    const btnSiguienteIzqBRQ = document.querySelector('#btnSiguienteIzqBRQ');
+    const btnSiguienteDerBRQ = document.querySelector('#btnSiguienteDerBRQ');
+    const btnSiguienteIzqINT = document.querySelector('#btnSiguienteIzqINT');
 
     
     const screenWidth = window.innerWidth;
     const screenHeight = window.innerHeight;
     
     div1.addEventListener('click', () => {
+        ubi1.style.backgroundColor = '#442c22';
+        ubi2.style.backgroundColor = 'white';
+        ubi3.style.backgroundColor = 'white';
+        ubi4.style.backgroundColor = 'white';
         btnSiguienteIzqBGT.style.display = "none";
         btnSiguienteIzqHLG.style.display = "block";
         if (screenWidth <= 992){
@@ -62,8 +70,16 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     
     div2.addEventListener('click', () => {
+        ubi1.style.backgroundColor = 'white';
+        ubi2.style.backgroundColor = '#442c22';
+        ubi3.style.backgroundColor = 'white';
+        ubi4.style.backgroundColor = 'white';
         btnSiguienteIzqBGT.style.display = "block";
+        btnSiguienteIzqBRQ.style.display = "block";
         btnSiguienteIzqHLG.style.display = "none";
+        btnSiguienteDerHLG.style.display = "none";
+     
+  
         if (screenWidth <= 992){
             div1.style.transform = 'translateX(-50vw) scale(0.4)';
             div2.style.transform = 'translateX(-58vw) scale(0.7)';
@@ -106,6 +122,14 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     
     div3.addEventListener('click', () => {
+        ubi1.style.backgroundColor = 'white';
+        ubi2.style.backgroundColor = 'white';
+        ubi3.style.backgroundColor = '#442c22';
+        ubi4.style.backgroundColor = 'white';
+        btnSiguienteDerHLG.style.display = "block";
+        btnSiguienteIzqINT.style.display = "block";
+        btnSiguienteIzqBRQ.style.display = "none";
+        btnSiguienteDerBRQ.style.display = "none";
         if (screenWidth <= 992){
             div1.style.transform = 'translateX(-70vw) scale(0.4)';
             div2.style.transform = 'translateX(-111vw) scale(0.4)';
@@ -141,13 +165,19 @@ document.addEventListener('DOMContentLoaded', () => {
       
         } else{
             div1.style.transform = 'translateX(-150vw) scale(0.5)';
-            div2.style.transform = 'translateX(-54vw) scale(0.5)';
+            div2.style.transform = 'translateX(-53vw) scale(0.5)';
             div3.style.transform = 'translateX(-41vw) scale(1)';
             div4.style.transform = 'translateX(-18vw) scale(0.5)';
         }
     });
     
     div4.addEventListener('click', () => {
+        btnSiguienteDerBRQ.style.display = "block";
+        btnSiguienteIzqINT.style.display = "none";
+        ubi1.style.backgroundColor = 'white';
+        ubi2.style.backgroundColor = 'white';
+        ubi3.style.backgroundColor = 'white';
+        ubi4.style.backgroundColor = '#442c22';
         if (screenWidth <= 992){
             div1.style.transform = 'translateX(-100vw) scale(0.4)';
             div2.style.transform = 'translateX(-200vw) scale(0.4)';
@@ -191,6 +221,10 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     ubi1.addEventListener('click', () => {
+        ubi1.style.backgroundColor = '#442c22';
+        ubi2.style.backgroundColor = 'white';
+        ubi3.style.backgroundColor = 'white';
+        ubi4.style.backgroundColor = 'white';
         if (screenWidth <= 992){
             div1.style.transform = 'translateX(6vw) scale(0.7)';
             div2.style.transform = 'translateX(10vw) scale(0.4)';
@@ -236,6 +270,10 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     
     ubi2.addEventListener('click', () => {
+        ubi1.style.backgroundColor = 'white';
+        ubi2.style.backgroundColor = '#442c22';
+        ubi3.style.backgroundColor = 'white';
+        ubi4.style.backgroundColor = 'white';
         if (screenWidth <= 992){
             div1.style.transform = 'translateX(-50vw) scale(0.4)';
             div2.style.transform = 'translateX(-58vw) scale(0.7)';
@@ -278,6 +316,10 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     
     ubi3.addEventListener('click', () => {
+        ubi1.style.backgroundColor = 'white';
+        ubi2.style.backgroundColor = 'white';
+        ubi3.style.backgroundColor = '#442c22';
+        ubi4.style.backgroundColor = 'white';
         if (screenWidth <= 992){
             div1.style.transform = 'translateX(-70vw) scale(0.4)';
             div2.style.transform = 'translateX(-111vw) scale(0.4)';
@@ -320,6 +362,10 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     
     ubi4.addEventListener('click', () => {
+        ubi1.style.backgroundColor = 'white';
+        ubi2.style.backgroundColor = 'white';
+        ubi3.style.backgroundColor = 'white';
+        ubi4.style.backgroundColor = '#442c22';
         if (screenWidth <= 992){
             div1.style.transform = 'translateX(-100vw) scale(0.4)';
             div2.style.transform = 'translateX(-200vw) scale(0.4)';
