@@ -23,7 +23,12 @@
     <link rel="stylesheet" href="responsive/extraSmallMovil.css">
 
 
+    <meta name="description"
+    content="¡Bienvenido a Casino Marcopolo! Disfruta de una emocionante variedad de juegos de azar en línea y en vivo. Gana grandes premios mientras te sumerges en la emoción de nuestros juegos.">
 
+<meta name="keywords" content="casino, juegos de azar, apuestas, ruleta, tragamonedas, blackjack, poker">
+<link rel="icon" href="Resources/Images/png/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -58,9 +63,16 @@
             
         </div>
     </div> -->
-    <a href="#intro">
-        <img class="btnarriba" src="Resources/Images/png/arribabtn.png" alt="">
+    <a href="#intro" id="audioLink">
+        <img class="btnarriba" src="Resources/Images/png/arribabtn.png" alt="Botón para ir arriba">
     </a>
+    <audio id="clickSound" src="Resources/audio/topbtn.mp3" preload="auto"></audio>
+    <audio id="clic" src="Resources/audio/clic.mp3" preload="auto"></audio>
+    <audio id="slide1Sound" src="Resources/audio/slide.mp3" preload="auto"></audio>
+    <audio id="slide2Sound" src="Resources/audio/slide.mp3" preload="auto"></audio>
+    <audio id="slide3Sound" src="Resources/audio/slide.mp3" preload="auto"></audio>
+    <audio id="slide4Sound" src="Resources/audio/slide.mp3" preload="auto"></audio>
+    
     <header>
 
         <nav>
@@ -92,7 +104,7 @@
                 Disfrute el mundo <span><img class="logoIntro" src="Resources/Images/png/logocasino.png"
                         alt="Logo Marcopolo"></span>
             </h1>
-            <span><img class="eslogan" src="Resources/Images/png/Oriente su suerte.png" alt="Logo Marcopolo"></span>
+            <span><img class="eslogan" src="Resources/Images/png/OrienteSuSuerte.png" alt="Logo Marcopolo"></span>
         </div>
         <div class="animation-container">
             <img id="animation" src="Resources/Images/png/Variant1.png" alt="Variant 1">
@@ -136,11 +148,12 @@
         <div class="container">
 
             <div id="div1" class="div2 box">
-                <img class="imgUbicacion" src="Resources/Images/png/marcopoloBogota.png"
+                <img class="cursorBlanco imgUbicacion" src="Resources/Images/png/marcopoloBogota.png"
                     alt="foto de marco polo bogota">
                 <img id="btnSiguienteIzqBGT" src="Resources/Images/png/siguiente.png" alt="botón de siguietne">
-                <a class="vermas" href=""><img src="Resources/Images/png/VERMAS.png"
-                        alt="boton dorado para ver mas"></a>
+                <a class="vermas" href="casinos/Holguines.html">
+                    <img src="Resources/Images/png/VERMAS.png" alt="boton dorado para ver más" class="vermas-img">
+                </a>
                 <div class="fondoblancoUbicaciones">
                     <p class="poppins-light tamañoContacto">Bogotá</p>
                     <h1 class="poppins-bold tamañoContacto ">100 con 15</h1>
@@ -160,12 +173,14 @@
                 </div>
             </div>
             <div id="div2" class="div2 box middle">
-                <img class="imgUbicacion" src="Resources/Images/png/marcopoloHolguines.png"
+                <img class="cursorBlanco imgUbicacion" src="Resources/Images/png/marcopoloHolguines.png"
                     alt="foto de marco polo holguines">
                 <img id="btnSiguienteIzqHLG" class="btn-SiguienteDer" src="Resources/Images/png/siguiente.png" alt="botón de siguiente">
                 <img id="btnSiguienteDerHLG" class="btn-SiguienteIzq" src="Resources/Images/png/siguiente.png" alt="botón de siguiente">
-                <a class="vermas" href="casinos/Holguines.html"><img src="Resources/Images/png/VERMAS.png"
-                        alt="boton dorado para ver mas"></a>
+                <a class="vermas" href="casinos/Holguines.html">
+                    <img src="Resources/Images/png/VERMAS.png" alt="boton dorado para ver más" class="vermas-img">
+                </a>
+                
                 <div class="fondoblancoUbicaciones">
                     <p class="poppins-light tamañoContacto">Cali Sur</p>
                     <h1 class="poppins-bold tamañoContacto">Holguines T.C.</h1>
@@ -185,12 +200,13 @@
                 </div>
             </div>
             <div id="div3" class="div2 box">
-                <img class="imgUbicacion" src="Resources/Images/png/marcopoloBarranquilla.png"
+                <img class="cursorBlanco imgUbicacion" src="Resources/Images/png/marcopoloBarranquilla.png"
                     alt="foto de marco polo barranquilla">
                     <img id="btnSiguienteIzqBRQ" class="btn-SiguienteDer" src="Resources/Images/png/siguiente.png" alt="botón de siguiente">
                     <img id="btnSiguienteDerBRQ" class="btn-SiguienteIzq" src="Resources/Images/png/siguiente.png" alt="botón de siguiente">
-                <a class="vermas" href=""><img src="Resources/Images/png/VERMAS.png"
-                        alt="boton dorado para ver mas"></a>
+                    <a class="vermas" href="casinos/Holguines.html">
+                        <img src="Resources/Images/png/VERMAS.png" alt="boton dorado para ver más" class="vermas-img">
+                    </a>
                 <div class="fondoblancoUbicaciones">
                     <p class="poppins-light tamañoContacto">Barranquilla</p>
                     <h1 class="interlineadoh1 poppins-bold tamañoContacto ">Mall plaza Buenavista</h1>
@@ -210,9 +226,11 @@
                 </div>
             </div>
             <div id="div4" class="div2 box">
-                <img class="imgUbicacion" src="Resources/Images/png/marcopoloLocalInter.png" alt="foto de marco polo holguines">
+                <img class="cursorBlanco imgUbicacion" src="Resources/Images/png/marcopoloLocalInter.png" alt="foto de marco polo holguines">
                 <img id="btnSiguienteIzqINT" class="btn-SiguienteDer" src="Resources/Images/png/siguiente.png" alt="botón de siguiente">
-                
+                <a class="vermas" href="casinos/Holguines.html">
+                    <img src="Resources/Images/png/VERMAS.png" alt="boton dorado para ver más" class="vermas-img">
+                </a>
                 <div class="fondoblancoUbicaciones">
                     <p class="poppins-light tamañoContacto">Cali Oeste</p>
                     <h1 class="poppins-bold tamañoContacto interlineadoh1">Hotel Intercontinental</h1>
@@ -350,8 +368,8 @@
                 </p>
                 <p class="josefin-sans">¡Estamos aquí para atenderle!</p>
             </div>
-            <form id="formcontacto" action="https://formsubmit.co/basealaddin@gmail.com" method="POST">
-                <div class="cont_grupos">
+            <form class="cursorBlanco" id="formcontacto" action="https://formsubmit.co/basealaddin@gmail.com" method="POST">
+                <div class=" cont_grupos">
                     <div class="grupo">
                         <label for="nombre_apellido">Nombre y Apellido:</label> <br>
                         <input type="text" id="nombre_apellido" name="nombre_apellido" placeholder="Nombre y Apellido"
@@ -399,8 +417,8 @@
 
     </section>
 
-    <footer>
-        <div class="contFooterPrimero">
+    <footer class="cursorBlanco">
+        <div class=" contFooterPrimero">
             <div class="juegoResponsable">
                 <h3>Juego Responsable</h1>
                     <p>Aladdin Hotel y Casino S.A.S es una empresa que apoya el juego responsable, por lo tanto no se
@@ -443,6 +461,38 @@
         </div>
     </footer>
     <Script>
+        // Función para verificar si un elemento está en la vista del usuario
+function isElementInViewport(el) {
+    var rect = el.getBoundingClientRect();
+    return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+}
+
+// Función para manejar la animación cuando los elementos están visibles
+function handleVisibility() {
+    var juegosItems = document.querySelectorAll('.juegos');
+
+    juegosItems.forEach(function(item) {
+        if (isElementInViewport(item)) {
+            item.classList.add('visible');
+        }
+    });
+}
+
+// Evento de scroll para verificar la visibilidad de los elementos
+window.addEventListener('scroll', function() {
+    handleVisibility();
+});
+
+// Llama a handleVisibility() al cargar la página para verificar los elementos visibles inicialmente
+document.addEventListener('DOMContentLoaded', function() {
+    handleVisibility();
+});
+
         document.addEventListener("mousemove", function (event) {
             var cursorTrail = document.getElementById("cursor-trail");
             var cursorDot = document.createElement("div");
@@ -462,6 +512,7 @@
 
     </Script>
     <script src="validacionContacto.js"></script>
+    <script src="audios.js"></script>
     <script src="javascript.js"></script>
     <script src="menuscript.js"></script>
     <script src="modalScript.js"></script>

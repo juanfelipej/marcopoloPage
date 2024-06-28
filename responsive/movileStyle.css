@@ -89,7 +89,7 @@
     left: 4px;
   }
   #ubicaciones{
-    padding-top: 150px;
+    padding-top: 50px;
     background-position: -493px 0;
     height: auto;
     padding-bottom: 64px;
@@ -148,7 +148,7 @@ nav>ul>li>a{
     padding: 0px 0px;
 }
 .contFooterPrimero>img {
-  margin: 45px;
+  margin: 31px;
 }
 .redes>h3 {
   padding: 45px 0px;
@@ -188,10 +188,10 @@ nav>ul>li>a{
 .titulosJuegos {
   margin: 20px 0;
 }
-#formcontacto{
+#formcontacto {
   width: 54%;
-  padding: 11%;
-  margin: 24px 0;
+  padding: 7%;
+  margin: 39px 0px;
 }
 header{
   background-color: #00000000;
@@ -199,6 +199,10 @@ header{
 .juegos>img {
   border-radius: 15px;
     width: 100%;
+}
+body {
+  background-position: 25% 39%;
+  background-size: contain;
 }
 .introInfo>button {
   width: auto;
@@ -230,6 +234,7 @@ header{
   width: 40%;
   justify-content: flex-start;
   text-align: center;
+
 }
 #bar1,  #bar2{
   transition: all 400ms cubic-bezier(.47,1.64,.41,.8);

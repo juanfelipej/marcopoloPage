@@ -12,14 +12,14 @@
     }
 
     #div1 {
-        transform: translateX(-400px) scale(0.5);
+        transform: translateX(-29vw) scale(0.5);
     }
 
     #div2 {
-        transform: translateX(-26vw) scale(0.8);
+        transform: translateX(-25vw) scale(0.8);
     }
     #div3 {
-        transform: translateX(-228px) scale(0.5);
+        transform: translateX(-13vw) scale(0.5);
     }
     .textModal {
         color: rgb(67 67 67);
@@ -29,6 +29,19 @@
         width: 12vw;
         height: 15vh;
         border-radius: 7px;
+    }
+    #ubicaciones {
+
+        height: 881px;
+        
+        padding-top: 29px;
+       
+        padding-bottom: 70px;
+    }
+    .container {
+    
+        height: 607px;
+
     }
     .info_popup {
         display: flex;

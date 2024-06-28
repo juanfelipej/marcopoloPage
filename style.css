@@ -1,6 +1,10 @@
 *{
   margin: 0; 
 }
+html {
+  scroll-behavior: smooth; /* Desplazamiento suave */
+}
+
 .textModal{
   color: rgb(67 67 67);
   font-size: 16px;
@@ -27,6 +31,8 @@
   margin: 24px;
   font-weight: bold;
 }
+
+
 .campos>label>input{
   background-color: white;
   border: none;
@@ -218,7 +224,9 @@ nav{
 /* Estilos base */
 body {
   font-family: Arial, sans-serif;
-  cursor: url('Resources/Images/png/cursor.png'), auto ;
+  cursor: url('Resources/Images/png/cursor.png'), auto;
+  background-image: url(Resources/Images/jpg/fondoBody.jpg);
+  background-position: 25% 69%;
 }
 
 .video-container {
@@ -250,7 +258,7 @@ body {
  
  .container {
    width: 99vw; /* Tamaño fijo del contenedor */
-   height: 741px; /* Tamaño fijo del contenedor */
+   height: 711px; /* Tamaño fijo del contenedor */
    display: flex;
    gap: 20px;
    overflow: hidden; /* Oculta cualquier contenido que se salga del contenedor */
@@ -319,18 +327,23 @@ body {
   transform: translateX(203px) scale(0.5);
 }
  
- #ubicaciones{
-   background-image: url(Resources/Images/jpg/fondoUbicaciones.jpg);
-   height: 881px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-   padding-top: 131px;
-   background-size: cover;
-   padding-bottom: 325px;
- }
- 
+
+#ubicaciones{
+  
+height: 881px;
+  
+display: flex;
+  
+align-items: center;
+  
+justify-content: center;
+  
+flex-direction: column;
+  
+padding-top: 105px;
+  
+background-size: cover;
+}
 
 .iconoUbicacion{
   width: 25px;
@@ -393,8 +406,9 @@ iframe{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #F2F2F2;
+  /* background-color: #F2F2F2; */
   padding-top: 91px;
+  margin-bottom: 104px;
 }
 .contentJuegos{
   display: flex;
@@ -478,8 +492,9 @@ iframe{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 10% 11%;
-  background-color: #f2f2f2;
+  padding: 7% 11%;
+  /* background-color: #f2f2f2; */
+  margin-top: 171px;
 }
 
 
@@ -578,7 +593,7 @@ footer>div>div>p{
   padding: 0px 41px;
 }
 .eslogan{
-  width: 53%;
+  width: 58%;
   margin-top: -9px;
 }
 .introInfo{
@@ -673,7 +688,7 @@ footer>div>div>p{
   width: 100%;
   margin-top: -34px;
   box-shadow: 0px 8px 12px #00000059;
-  border-radius: 0% 0% 10% 10%;
+  border-radius: 0% 0% 30px 30px;
 }
 .infoContactoUbicacionesMovil{
   width: 90%;
@@ -1138,17 +1153,6 @@ nav{
   transform: translateX(203px) scale(0.5);
 }
  
- #ubicaciones{
-   background-image: url(Resources/Images/jpg/fondoUbicaciones.jpg);
-   height: 881px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-   padding-top: 265px;
-   background-size: cover;
-   padding-bottom: 325px;
- }
  
 
 .iconoUbicacion{
@@ -1373,8 +1377,8 @@ footer{
 footer>div>div>p{
   color: white !important;
 }
-.redes{
-
+.redes {
+  text-align: center;
 }
 .contFooterPrimero>img{
   width: 198px;
@@ -1578,6 +1582,7 @@ button.pulse:active {
 /* Estilos base */
 body {
   font-family: Arial, sans-serif;
+
 }
 
 video::-webkit-media-controls-overlay {
@@ -1771,6 +1776,19 @@ left: 1054px;
     display: none;
   
  }
+ .cursorBlanco{
+  cursor: url(Resources/Images/png/cursorBlanco.png), auto !important;
+ }
+ .vermas {
+  display: inline-block;
+}
+
+.vermas-img {
+  transition: all 0.3s ease; /* Para una transición suave */
+}
+ .vermas:hover .vermas-img {
+  content: url('Resources/Images/png/VERMASHOVER.png'); /* Cambia la URL por la imagen deseada */
+}
  .dot:active { /* Style for active dot */
   background-color: #007bff; /* Change color for active dot */
 }
@@ -1813,11 +1831,15 @@ top: 300px;
   pointer-events: none;
   transition: opacity 0.3s ease-out; /* Transición de desvanecimiento */
 }
-
+#ubi2{
+  background-color: #6e3f0c;
+}
 .vermasMovil{
   position: absolute;
-  left: 82px;
-  bottom: 21px;
+
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .vermasMovil>img{
   width: 150px;

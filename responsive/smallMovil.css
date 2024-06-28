@@ -1,10 +1,28 @@
+
 @media only screen and (max-width: 480px) {
+    
+    body {
+        background-position: 25% 47%;
+    }
     .iframe>iframe {
-        left: 345%;
+        left: 329%;
         top: -1rem;
         height: 35vw;
         width: 41vw;
     }
+    #Contacto{
+        margin-top: 31px;
+    }
+    .contFooterPrimero>img {
+        width: 120px;
+        height: 120px;
+        margin-top: 6%;
+    }
+    .redes>h3 {
+        padding: 14px 0px;
+        text-align: center;
+        margin-top: 16px;
+       }
     .modal{
         display: flex;
         align-items: center;
@@ -56,5 +74,25 @@
     .modal-content {
         width: 43%;
         height: auto;
+    }
+}
+@media only screen and (max-width: 430px) {
+    body {
+        background-position: 25% 43%;
+        background-size: contain;
+    }
+    #Contacto {
+        margin-top: 97px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    body {
+        background-position: 25% 42%;
+    }
+}
+@media only screen and (max-width: 360px) {
+    body {
+        background-position: 97% 29%;
     }
 }

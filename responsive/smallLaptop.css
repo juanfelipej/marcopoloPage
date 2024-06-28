@@ -22,4 +22,14 @@
     .modal-content {
         height: 21%;
     }
+    #ubicaciones {
+        height: 701px;
+        padding-top: 171px;
+        padding-bottom: 235px;
+        width: 100vw;
+    }
+    .container {
+
+        height: 591px;
+    }
 }

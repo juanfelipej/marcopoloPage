@@ -28,4 +28,24 @@
         height: 16vh;
         border-radius: 7px;
     }
+    .container {
+        width: 99vw;
+        height: 614px;
+        display: flex;
+        gap: 20px;
+        overflow: hidden;
+        transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+        align-items: center;
+    }
+    #ubicaciones {
+
+        height: 881px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 51px;
+        background-size: cover;
+        padding-bottom: 0;
+    }
 }

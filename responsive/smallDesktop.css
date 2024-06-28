@@ -1,14 +1,31 @@
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
+    body {
+        font-family: Arial, sans-serif;
+        cursor: url(Resources/Images/png/cursor.png), auto;
+        background-image: url(../Resources/Images/jpg/fondoBody.jpg);
+        background-position: 56% 66%;
+        background-size: 157%;
+    }
     .introInfo {
-        text-align: center;
-        margin-left: 0;
+        width: 394px;
     }
 
     .textModal {
         font-size: 14px;
     }
+    #btnSiguienteIzqBGT {
 
+        left: 1025px;
+      
+        width: 64px;
+
+    }
+    .juegos>img {
+        border-radius: 15px;
+        width: 96%;
+        cursor: url(Resources/Images/png/cursorBlanco.png), auto !important;
+    }
     #intro {
         background-image: url(Resources/Images/jpg/introcasino.jpg);
         height: 100vh;
@@ -30,11 +47,11 @@
     }
     nav {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
         flex-direction: row;
         height: 96px;
-        width: 78vw;
+        width: 100vw;
         position: fixed;
         z-index: 4;
     }
@@ -84,7 +101,7 @@
     }
 
     .grupo>label {
-        font-size: 20px;
+        font-size: 17px;
         font-family: "Poppins", sans-serif;
     }
 
@@ -111,23 +128,52 @@
         border-radius: 5px;
         border: none;
     }
-
+    .josefin-sans {
+        font-size: 20px;
+    }
     #checkbox {
         margin-top: 24px;
+        font-size: 13px;
     }
-
+    #btnSiguienteIzqHLG {
+        
+        left: -87px;
+    }
+    #btnSiguienteDerBRQ{
+        left: 1029px;
+    }
     .institucional>ul {
         margin-left: 8%;
         padding: 0;
         list-style: auto;
         width: 82%;
     }
+    #btnSiguienteIzqINT {
+        
+        left: -90px;
+    }
+    #Contacto{
+        padding: 6% 11%;
+        margin-top: 0;
+    }
+    .container {
+     
+        height: 551px;
+    }
+    #ubicaciones {
+        padding-bottom: 5px;
+        height: 749px;
+        padding-top: 18px;
+        }
 
     .institucional>ul>li {
         color: white;
         list-style: outside;
         width: 100%;
     }
+    #btnSiguienteIzqBRQ {
+
+        left: -90px;}
 
     .institucional>ul {
         margin-left: 8%;
@@ -135,7 +181,15 @@
         list-style: auto;
         width: 82%;
     }
-
+    #btnSiguienteDerHLG {
+     
+        left: 1027px;
+    }
+    .introInfo>h1 {
+        font-size: 34px;
+        color: white;
+        font-family: "Josefin Sans", sans-serif;
+    }
     .contFooterPrimero>img {
         width: 120px;
         height: 120px;
@@ -151,6 +205,10 @@
     }
 
     #div3 {
-        transform: translateX(-49vw) scale(0.5);
+        transform: translateX(-51vw) scale(0.4);
+    }
+    .titulos {
+        margin: 42px 0px 30px;
+        font-size: 45px;
     }
 }

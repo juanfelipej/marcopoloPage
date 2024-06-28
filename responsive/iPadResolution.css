@@ -4,17 +4,72 @@
         width: 44%;
     }
     #div1 {
-        transform: translateX(-42vw) scale(0.4);
+        transform: translateX(-48vw) scale(0.4);
     }
     #div2 {
         transform: translateX(-53vw) scale(0.7);
     }
     #div3 {
-        transform: translateX(-51vw) scale(0.4);
+        transform: translateX(-46vw) scale(0.4);
     }
     .content_popup> img {
         width: 20vw;
         height: 13vh;
         border-radius: 7px;
+    }
+    #juegos{
+        margin-bottom: 0;
+    
+    }
+    #formcontacto>button {
+        padding: 8px;
+        margin: 0 0px 13px 0;
+    }
+    .grupo {
+        width: 48%;
+        height: auto;
+    }
+    .juegos>img {
+        border-radius: 15px;
+        width: 101%;
+        cursor: url(Resources/Images/png/cursorBlanco.png), auto !important;
+    }
+    #ubicaciones{
+        padding-top: 140px;
+        height: 582px;
+    }
+    .terminos {
+        color: white;
+        font-size: 12px;
+    }
+    .grupo>label {
+        font-size: 13px;
+        font-family: "Poppins", sans-serif;
+    }
+    nav{
+        width: auto;
+    }
+    .introInfo {
+        width: 365px;
+    }
+    .introInfo>h1 {
+        font-size: 35px;
+    }
+#Contacto{
+    margin-top: 11px;
+    padding: 17% 11%;
+}
+    body{
+        background-size: 143%;
+        background-position: 27% 54%;
+        }
+    .container {
+        width: 99vw;
+        height: 520px;
+        display: flex;
+        gap: 20px;
+        overflow: hidden;
+        transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+        align-items: center;
     }
 }

@@ -1,5 +1,63 @@
+
+
+
+
+@media only screen and (max-width: 1200px) {
+  nav {
+
+    justify-content: space-evenly;
+    
+    width: 100vw;
+   
+}
+body > main > section.container.text-center.hero > div{
+  
+  flex-direction: column;
+}
+.hero img {
+
+margin: 15px 0;
+}
+
+.service-item {
+  text-align: center;
+  margin: 0 16px;
+  flex: 0 0 20%;
+}
+.contFooterPrimero>img {
+  width: 147px;
+  height: 148px;
+  margin-left: 45px;
+  align-self: center;
+}
+.hero-content p {
+  font-size: 16px;}
+}
+
+@media only screen and (max-width: 1500px) {
+  .col-lg-12 {
+    flex: 0 0 auto;
+    width: 80%;
+}.row {
+justify-content: center;}
+.service-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+.hero-content p {
+  font-size: 15px;
+}
+@media only screen and (max-width: 800px) {
+  .service-item {
+    text-align: center;
+    margin: 0 16px;
+    flex: 0 0 20%;
+  }
+}
+/* Estilos para smartphones en modo horizontal */
+
 /* Estilos para smartphones en modo vertical */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
   .hero-content p {
       font-size: 13px;
   }
@@ -9,7 +67,11 @@
   #opening>img {
     height: 100vh;
 }
-
+.service-item {
+  text-align: center;
+  margin: 0 16px;
+  flex: 0 0 53%;
+}
   .menu-items.show {
     display: block;
     margin: 0;
@@ -22,9 +84,8 @@
   height: 97px !important;
   width: 322px !important;
 }
-body > main > section.container.text-center.hero > div > div:nth-child(1){
-  margin: 50px 0;
-
+body > main > section.container.text-center.hero > div > div:nth-child(1) {
+  margin: -3px 0;
 }
 .institucional>h3 {
   text-align: center;
@@ -34,6 +95,9 @@ text-align: center;
 }
 nav{
   width: 100%;
+}
+.services {
+  padding: 8px 0;
 }
 nav>ul>li>a {
   width: 100%;
@@ -74,7 +138,7 @@ text-align: center;
    padding: 0px 0px;
 }
 .contFooterPrimero>img {
- margin: 45px;
+ margin: 31px;
 }
 .institucional>ul {
   margin-left: 8%;
@@ -103,8 +167,9 @@ text-align: center;
 }
 
 .redes>h3 {
- padding: 45px 0px;
+ padding: 14px 0px;
  text-align: center;
+ margin-top: 16px;
 }
  nav.show{
    display: flex;
@@ -160,6 +225,9 @@ text-align: center;
       margin: 0 11px;
       flex: 0 0 43%;
   }
+  .WlogoText>img {
+    width: 154px;
+}
   .menu-items {
       display: none;
   }
@@ -167,6 +235,11 @@ text-align: center;
       text-decoration: none;
       background-color: #0000006e;
   }
+  .services h3 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 19px;
+}
   nav.show{
       display: flex;
       justify-content: flex-start;
@@ -191,14 +264,4 @@ text-align: center;
       display: none; /* Ocultar la lista por defecto */
       position: fixed;
   }
-}
-
-/* Estilos para smartphones en modo horizontal */
-@media only screen and (min-width: 481px) and (max-width: 767px) {
-  /* Tus estilos aquÃ­ */
-}
-
-/* Estilos para smartphones en modo horizontal o vertical */
-@media only screen and (min-width: 767px) {
-
 }

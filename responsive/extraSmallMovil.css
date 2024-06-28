@@ -1,9 +1,17 @@
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 321px) {
     .iframe>iframe {
         left: 271%;
         top: 0rem;
         height: 35vw;
         width: 41vw;
+    }
+    #juegos{
+        margin-bottom: 14px;
+    }
+    body {
+        background-position: 25% 24%;
+        
+        background-size: 457px;
     }
     .modal{
         display: flex;
@@ -11,13 +19,27 @@
     }
     .fondoblancoUbicacionesMovil>h1 {
         font-size: 25px;
+        line-height: 1;
     }
     .fondoblancoUbicacionesMovil>p {
         font-size: 27px;
     }
+    #Contacto{
+        margin-top: 0px;
+    }
     .grupo>label {
         font-size: 11px;
         font-family: "Poppins", sans-serif;
+    }
+    .infoContactoUbicacionesMovil>p {
+        font-size: 12px;
+    }
+    .vermasMovil {
+        position: absolute;
+        top: 87%;
+    }
+    .vermasMovil>img {
+        width: 129px;
     }
     #checkbox {
         margin-top: 24px;
@@ -52,6 +74,9 @@
     .textModal {
         color: rgb(67 67 67);
         font-size: 12px;
+    }
+    .institucional>h3 {
+        padding: 24px 0px;
     }
 
 }

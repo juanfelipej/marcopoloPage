@@ -102,9 +102,9 @@
         transform: translateX(-9vw) scale(1);
     }
     #div1{
-        transform: translateX(-21vw) scale(0.5);
+        transform: translateX(-16vw) scale(0.5);
     }
     #div3{
-        transform: translateX(14vw) scale(0.5);
+        transform: translateX(9vw) scale(0.5);
     }
 }
