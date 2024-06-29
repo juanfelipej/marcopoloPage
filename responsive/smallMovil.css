@@ -6,7 +6,7 @@
     }
     .iframe>iframe {
         left: 329%;
-        top: -1rem;
+        top: 0rem;
         height: 35vw;
         width: 41vw;
     }
@@ -33,6 +33,7 @@
     }
     .fondoblancoUbicacionesMovil>h1 {
         font-size: 25px;
+        line-height: 1;
     }
     .fondoblancoUbicacionesMovil>p {
         font-size: 27px;
