@@ -219,7 +219,12 @@ nav{
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
+  
   cursor: url('Resources/Images/png/cursorBlanco.png'), auto !important;
+}
+a,.dot-navigation , button {
+  cursor: url('Resources/Images/png/cursorMano.png'), pointer !important;
 }
 /* Estilos base */
 body {
