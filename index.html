@@ -112,37 +112,70 @@
         <div id="cursor-trail"></div>
     </section>
 
-
+    <script>
+        window.addEventListener('scroll', function() {
+            let elements = document.querySelectorAll('.fadeIn');
+            
+            elements.forEach(function(element) {
+                if (isElementInViewport(element)) {
+                    let scrollY = window.scrollY || window.pageYOffset;
+                    if (scrollY < 500) {
+                        element.classList.add('visible');
+                    } else {
+                        element.style.opacity = 1; // Mostrar inmediatamente si el scroll es mayor a 500px
+                    }
+                }
+            });
+        });
+        
+        // Función para verificar si el elemento está visible en el viewport
+        function isElementInViewport(el) {
+            var rect = el.getBoundingClientRect();
+            return (
+                rect.top >= 0 &&
+                rect.left >= 0 &&
+                rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+            );
+        }
+    </script>
     <section id="juegos" class="animado">
-        <h1 class="titulos josefin-sans">Juegos</h1>
-
+        <h1 class="fadeIn titulos josefin-sans">Juegos</h1>
+        <div class="roulette">
+            <img class="rouleta" src="Resources/Images/png/roulette.png" alt="Roulette Wheel">
+        </div>
+      
         <div class="contentJuegos">
-            <div class="juegos">
-                <img src="Resources/Images/jpg/hipodromo.jpg" alt="">
-                <h2 class="titulosJuegos josefin-sans">Hipódromo</h2>
-            </div>
             <div class="juegos">
                 <img src="Resources/Images/jpg/baccarat.jpg" alt="">
                 <h2 class="titulosJuegos josefin-sans">Baccarat</h2>
             </div>
             <div class="juegos">
+                <img src="Resources/Images/jpg/hipodromo.jpg" alt="hipodromo">
+                <h2 class="titulosJuegos josefin-sans">Hipódromo Electrónico</h2>
+            </div>
+           
+           
+            <div class="juegos">
+                <img src="Resources/Images/jpg/poker.jpg" alt="">
+                <h2 class="titulosJuegos josefin-sans">Póker</h2>
+            </div>
+            
+            <div class="juegos">
                 <img src="Resources/Images/jpg/slots.jpg" alt="">
                 <h2 class="titulosJuegos josefin-sans">Slots</h2>
             </div>
-          
+           
             <div class="juegos">
                 <img src="Resources/Images/jpg/blackjack.jpg" alt="">
                 <h2 class="titulosJuegos josefin-sans">Black Jack</h2>
             </div>
             <div class="juegos">
-                <img src="Resources/Images/jpg/ruleta.jpg" alt="">
-                <h2 class="titulosJuegos josefin-sans">Ruleta</h2>
+                <img src="Resources/Images/jpg/ruleta.jpg" alt="ruleta manual y electronica">
+                <h2 class="titulosJuegos josefin-sans">Ruleta manual y electrónica</h2>
             </div>
            
-            <div class="juegos">
-                <img src="Resources/Images/jpg/ruletaelectronica.jpg" alt="">
-                <h2 class="titulosJuegos josefin-sans">Ruleta electrónica</h2>
-            </div>
+            
         </div>
     </section>
     <section id="ubicaciones" class="animado">
@@ -361,6 +394,9 @@
 
     </section>
     <section id="Contacto" class="animado">
+        <div class="cartas">
+            <img class="card" src="Resources/Images/png/cartas.png" alt="cartas ">
+        </div>
         <div class="infoContacto">
             <div class="txtContacto">
                 <h1 class="titulos josefin-sans">Contacto</h1>
@@ -513,11 +549,16 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
     </Script>
-    <script src="validacionContacto.js"></script>
+
+
+
     <script src="audios.js"></script>
     <script src="javascript.js"></script>
     <script src="menuscript.js"></script>
     <script src="modalScript.js"></script>
+    <script src="ruleta.js"></script>
+    <script src="cartas.js"></script>
+   
 </body>
 
 </html>

@@ -189,14 +189,10 @@ nav{
   flex-wrap: wrap;
 }
 
-.service-item {
-  text-align: center;
-  margin-bottom: 20px;
-  width: 18%;
-}
+
 
 .service-item img {
-  width: 100%;
+  /* width: 100%; */
   border-radius: 8px;
 }
 
@@ -218,20 +214,11 @@ nav{
 .services h3 {
   text-align: center;
   font-size: 28px;
-  margin-bottom: 40px;
+  margin-bottom: 22px;
 }
 
-.carousel {
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  margin: 0 auto;
-}
 
-.carousel-track {
-  display: flex;
-  animation: scroll 20s linear infinite;
-}
+
 .no-scroll {
   overflow: hidden;
 }
@@ -243,24 +230,71 @@ nav{
       transform: translateX(-50%);
   }
 }
+.carousel {
+  overflow: hidden; /* Oculta cualquier contenido que se desborde */
+  width: 100%; /* Ajusta el ancho según tus necesidades */
+}
+.carousel-track {
+  display: flex;
+  width: calc(100% * 3); /* Ajusta el número según la cantidad de imágenes */
+  animation: carouselScroll 293s linear infinite;
+  /* Asegura que el contenido no se desborde */
+}
+
+.carousel-track:hover {
+  animation-play-state: paused; /* Pausa la animación cuando el mouse está sobre .carousel-track */
+}
 
 .service-item {
-  text-align: center;
-  margin: 0 18px;
-  flex: 0 0 12%;
+  flex: 0 0 auto; /* Ajusta el tamaño de los elementos */
+  padding: 0 10px; /* Añade espacios entre los elementos si es necesario */
+  max-width: 100%; /* Ajusta el ancho máximo para que no se desborde */
+  text-align: center; /* Centra el contenido dentro de cada servicio */
 }
 
 .service-item img {
-  width: 100%;
-  border-radius: 22px;
-  box-shadow: -8px 7px 11px #00000040;
+  max-width: 100%; /* Ajusta el ancho máximo de la imagen */
+  height: 170px; /* Permite que la altura se ajuste automáticamente */
+  border-radius: 22px; /* Añade bordes redondeados */
+  box-shadow: -8px 7px 11px #00000040; /* Añade sombra */
 }
 
 .service-item p {
-  margin-top: 10px;
-  font-size: 16px;
+  margin-top: 10px; /* Espacio superior */
+  font-size: 20px; /* Tamaño de la fuente */
 }
 
+@keyframes carouselScroll {
+  0% {
+    transform: translateX(0); /* Comienza desde la posición inicial */
+  }
+  100% {
+    transform: translateX(-100%); /* Desplázate completamente hacia la izquierda */
+  }
+}
+
+.carousel-trackMv{
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.service-itemMv p {
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+.service-itemMv img{
+  width: 100%;
+  border-radius: 10px;
+}
+.service-itemMv{
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
 footer>div{
   display: flex;
   flex-direction: row;

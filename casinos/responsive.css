@@ -61,16 +61,27 @@ justify-content: center;}
   .hero-content p {
       font-size: 13px;
   }
+  .services{
+    display: none;
+  }
   .oculatarimg {
       display: none;
   }
   #opening>img {
     height: 100vh;
+}.servicesMovil{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 41px 0px;
 }
 .service-item {
   text-align: center;
   margin: 0 16px;
-  flex: 0 0 53%;
+  flex: 0 0 24%;
+}
+.service-item p{
+font-size: 14px
 }
   .menu-items.show {
     display: block;
@@ -223,7 +234,7 @@ text-align: center;
   .service-item {
       text-align: center;
       margin: 0 11px;
-      flex: 0 0 43%;
+      /* flex: 0 0 43%; */
   }
   .WlogoText>img {
     width: 154px;
@@ -264,4 +275,5 @@ text-align: center;
       display: none; /* Ocultar la lista por defecto */
       position: fixed;
   }
+  
 }

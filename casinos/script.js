@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const track = document.querySelector('.carousel-track');
-    const animationDuration = 22; // Ajusta este valor para hacer el desplazamiento más lento o más rápido
+    const animationDuration = 35; // Ajusta este valor para hacer el desplazamiento más lento o más rápido
     track.style.animationDuration = `${animationDuration}s`;
 
     const puertaDer = document.querySelector('#puertaDer');

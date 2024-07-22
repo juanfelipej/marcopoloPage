@@ -129,7 +129,7 @@
         border: none;
     }
     .josefin-sans {
-        font-size: 20px;
+        font-size: 16px;
     }
     #checkbox {
         margin-top: 24px;
@@ -195,7 +195,13 @@
         height: 120px;
         margin-top: 6%;
     }
+    .roulette {
+        width: 100%;
+      }
 
+.rouleta{
+    width: 60%;
+}
     #div1 {
         transform: translateX(-48vw) scale(0.4);
     }
